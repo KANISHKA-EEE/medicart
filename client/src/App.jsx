@@ -27,6 +27,8 @@ import { categoriesData } from './data/products';
 import { Grid, CheckCircle } from 'lucide-react';
 import './App.css';
 
+import AboutModal from './components/AboutModal';
+
 function MainShopView({ showToast, toast }) {
   // Backend API Status State
   const [apiStatus, setApiStatus] = useState('Connecting...');
@@ -40,8 +42,9 @@ function MainShopView({ showToast, toast }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
 
-  // Cart Modal Visibility
+  // Cart & About Modal Visibility
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isAboutOpen, setIsAboutOpen] = useState(false);
 
   // Consume CartContext
   const { addToCart } = useCart();
@@ -135,6 +138,7 @@ function MainShopView({ showToast, toast }) {
         setSearchQuery={setSearchQuery}
         apiStatus={apiStatus}
         onOpenCart={() => setIsCartOpen(true)}
+        onOpenAbout={() => setIsAboutOpen(true)}
         onShowToast={showToast}
       />
 
@@ -148,7 +152,7 @@ function MainShopView({ showToast, toast }) {
       {/* Hero Section */}
       <Hero
         onShopClick={() => {
-          const el = document.getElementById('popular-medicines');
+          const el = document.getElementById('available-medicines') || document.getElementById('popular-medicines');
           if (el) el.scrollIntoView({ behavior: 'smooth' });
         }}
         onWellnessClick={() => {
@@ -178,7 +182,7 @@ function MainShopView({ showToast, toast }) {
                 onSelectCategory={(name) => {
                   setActiveCategory(name);
                   showToast(`Selected category: ${name}`);
-                  const el = document.getElementById('popular-medicines');
+                  const el = document.getElementById('available-medicines') || document.getElementById('popular-medicines');
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
               />
@@ -187,7 +191,7 @@ function MainShopView({ showToast, toast }) {
         </div>
       </section>
 
-      {/* Popular Medicines Section */}
+      {/* Popular / Available Medicines Section */}
       <ProductSection
         products={filteredProducts}
         totalMedicinesCount={medicines.length}
@@ -217,13 +221,27 @@ function MainShopView({ showToast, toast }) {
       />
 
       {/* Footer */}
-      <Footer onFooterLinkClick={(linkName) => showToast(`${linkName} clicked`)} />
+      <Footer 
+        onFooterLinkClick={(linkName) => {
+          if (linkName.includes('About')) {
+            setIsAboutOpen(true);
+          } else {
+            showToast(`${linkName} clicked`);
+          }
+        }} 
+      />
 
       {/* Cart Drawer Modal */}
       <CartModal
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
         onShowToast={showToast}
+      />
+
+      {/* About Modal */}
+      <AboutModal
+        isOpen={isAboutOpen}
+        onClose={() => setIsAboutOpen(false)}
       />
     </div>
   );

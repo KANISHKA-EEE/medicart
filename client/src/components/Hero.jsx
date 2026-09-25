@@ -59,7 +59,7 @@ export default function Hero({ onShopClick, onWellnessClick }) {
             <div className="hero-card-body">
               <div className="medicine-preview-icon">💊</div>
               <h3>Express Health Delivery</h3>
-              <p>Over 50,000+ satisfied patients trust MediCart for monthly medicine supply.</p>
+              <p>Over 50,000+ satisfied patients trust Kanishka Pharmacy for monthly medicine supply.</p>
             </div>
             <div className="hero-card-features">
               <div className="feature-pill">

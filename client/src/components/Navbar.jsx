@@ -2,13 +2,14 @@ import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
-import { Pill, Search, User, Package, ShoppingCart, Activity, Menu, X, LogOut, ShieldCheck } from 'lucide-react';
+import { Pill, Search, User, Package, ShoppingCart, Info, Home, LogOut, ShieldCheck, Menu, X } from 'lucide-react';
 
 export default function Navbar({ 
   searchQuery, 
   setSearchQuery, 
   apiStatus,
   onOpenCart,
+  onOpenAbout,
   onShowToast
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -17,7 +18,7 @@ export default function Navbar({
   const navigate = useNavigate();
 
   const handleNavClick = (featureName) => {
-    onShowToast(`${featureName} feature clicked (Demo Mode)`);
+    if (onShowToast) onShowToast(`${featureName} feature clicked (Demo Mode)`);
   };
 
   const handleLogout = () => {
@@ -28,20 +29,33 @@ export default function Navbar({
     navigate('/');
   };
 
+  const scrollToMedicines = () => {
+    navigate('/');
+    setTimeout(() => {
+      const el = document.getElementById('available-medicines') || document.getElementById('popular-medicines');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  };
+
+  const scrollToHome = () => {
+    navigate('/');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <header className="navbar-header">
       {/* Top Utility Bar */}
       <div className="top-bar">
         <div className="top-bar-container">
           <div className="top-bar-left">
-            <span>⚡ Express 2-Hour Delivery Available in Selected Cities</span>
+            <span>🏥 <strong>Kanishka Pharmacy</strong> — Express 2-Hour Delivery Available</span>
             <span className="dot">•</span>
             <span>🔒 100% Genuine Medicines</span>
           </div>
           <div className="top-bar-right">
             <span className="api-badge" title="Backend Server Status">
-              <span className={`status-dot ${apiStatus.includes('working') ? 'online' : 'connecting'}`}></span>
-              Backend: {apiStatus.includes('working') ? 'Connected' : 'Checking...'}
+              <span className={`status-dot ${apiStatus && apiStatus.includes('working') ? 'online' : 'connecting'}`}></span>
+              Backend: {apiStatus && apiStatus.includes('working') ? 'Connected' : 'Checking...'}
             </span>
             <button onClick={() => handleNavClick('Need Help?')} className="top-link">Need Help?</button>
             <button onClick={() => handleNavClick('Track Order')} className="top-link">Track Order</button>
@@ -58,10 +72,33 @@ export default function Navbar({
               <Pill className="logo-icon" size={26} />
             </div>
             <div className="logo-text-box">
-              <span className="logo-title">Medi<span className="accent">Cart</span></span>
+              <span className="logo-title">Kanishka <span className="accent">Pharmacy</span></span>
               <span className="logo-tagline">Your Health, Delivered</span>
             </div>
           </Link>
+
+          {/* Direct Nav Menu (Home | Medicines | About | Login | Cart) */}
+          <div className="primary-nav-links">
+            <button className="nav-menu-link" onClick={scrollToHome}>
+              <Home size={16} /> Home
+            </button>
+            <button className="nav-menu-link" onClick={scrollToMedicines}>
+              <Pill size={16} /> Medicines
+            </button>
+            <button className="nav-menu-link" onClick={onOpenAbout}>
+              <Info size={16} /> About
+            </button>
+            {isAuthenticated ? (
+              <span className="nav-menu-user">Hi, {user?.name}</span>
+            ) : (
+              <button className="nav-menu-link" onClick={() => navigate('/login')}>
+                <User size={16} /> Login
+              </button>
+            )}
+            <button className="nav-menu-link cart-menu-highlight" onClick={onOpenCart}>
+              <ShoppingCart size={16} /> Cart ({cartCount})
+            </button>
+          </div>
 
           {/* Search Bar */}
           <div className="nav-search-container">
@@ -171,6 +208,15 @@ export default function Navbar({
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
           <div className="mobile-menu">
+            <button className="mobile-menu-item" onClick={() => { scrollToHome(); setMobileMenuOpen(false); }}>
+              <Home size={18} /> Home
+            </button>
+            <button className="mobile-menu-item" onClick={() => { scrollToMedicines(); setMobileMenuOpen(false); }}>
+              <Pill size={18} /> Available Medicines
+            </button>
+            <button className="mobile-menu-item" onClick={() => { onOpenAbout(); setMobileMenuOpen(false); }}>
+              <Info size={18} /> About Kanishka Pharmacy
+            </button>
             {isAuthenticated ? (
               <>
                 <div className="mobile-menu-item" style={{ fontWeight: 'bold' }}>
@@ -187,7 +233,7 @@ export default function Navbar({
               </>
             ) : (
               <button className="mobile-menu-item" onClick={() => { navigate('/login'); setMobileMenuOpen(false); }}>
-                <User size={18} /> Sign In / Register
+                <User size={18} /> Login / Register
               </button>
             )}
             <button className="mobile-menu-item" onClick={() => { navigate('/orders'); setMobileMenuOpen(false); }}>
@@ -202,3 +248,4 @@ export default function Navbar({
     </header>
   );
 }
+

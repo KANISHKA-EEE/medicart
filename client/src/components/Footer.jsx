@@ -12,26 +12,26 @@ export default function Footer({ onFooterLinkClick }) {
               <div className="logo-icon-box">
                 <Pill className="logo-icon" size={24} />
               </div>
-              <span className="logo-title">Medi<span className="accent">Cart</span></span>
+              <span className="logo-title">Kanishka <span className="accent">Pharmacy</span></span>
             </div>
             <p className="footer-about">
-              MediCart is your trusted online healthcare destination for genuine medicines, wellness supplements, and medical devices.
+              Kanishka Pharmacy is your trusted online healthcare destination for genuine medicines, wellness supplements, and medical devices.
             </p>
             <div className="footer-contact">
               <div className="contact-item">
-                <Phone size={16} /> <span>1800-123-MEDICART</span>
+                <Phone size={16} /> <span>1800-123-KANISHKA</span>
               </div>
               <div className="contact-item">
-                <Mail size={16} /> <span>support@medicart.com</span>
+                <Mail size={16} /> <span>support@kanishkapharmacy.com</span>
               </div>
             </div>
           </div>
 
           {/* Column 2: Quick Links */}
           <div className="footer-col">
-            <h4 className="footer-heading">About MediCart</h4>
+            <h4 className="footer-heading">About Us</h4>
             <ul className="footer-links">
-              <li><button onClick={() => onFooterLinkClick('About MediCart')}>About MediCart</button></li>
+              <li><button onClick={() => onFooterLinkClick('About Kanishka Pharmacy')}>About Kanishka Pharmacy</button></li>
               <li><button onClick={() => onFooterLinkClick('Contact Us')}>Contact Us</button></li>
               <li><button onClick={() => onFooterLinkClick('Help Center')}>Help Center</button></li>
               <li><button onClick={() => onFooterLinkClick('Privacy Policy')}>Privacy Policy</button></li>
@@ -80,9 +80,9 @@ export default function Footer({ onFooterLinkClick }) {
       {/* Footer Bottom */}
       <div className="footer-bottom">
         <div className="footer-bottom-container">
-          <p>© 2026 MediCart. All rights reserved.</p>
+          <p>© 2026 Kanishka Pharmacy. All rights reserved.</p>
           <div className="footer-disclaimer">
-            <span>Designed with React & Node.js (MERN Stack)</span>
+            <span>Powered by MediCart (MERN Stack)</span>
           </div>
         </div>
       </div>

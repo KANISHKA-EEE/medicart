@@ -16,16 +16,16 @@ export default function ProductSection({
   onBuyNow 
 }) {
   return (
-    <section className="product-section" id="popular-medicines">
-      <div className="section-container">
+    <section className="product-section" id="available-medicines">
+      <div className="section-container" id="popular-medicines">
         {/* Section Header */}
         <div className="section-header-flex">
           <div>
             <div className="section-tag">
               <Pill size={16} />
-              <span>Verified Pharmacy Products</span>
+              <span>Verified Kanishka Pharmacy Stock</span>
             </div>
-            <h2 className="section-title">Popular Medicines & Health Essentials</h2>
+            <h2 className="section-title">Available Medicines & Health Essentials</h2>
           </div>
 
           {/* Quick Filter Badges */}
