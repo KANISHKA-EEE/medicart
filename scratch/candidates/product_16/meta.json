@@ -1,0 +1,41 @@
+{
+  "id": 16,
+  "name": "Vitamin B-Complex with B12",
+  "manufacturer": "Becosules Wellness",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Capsule",
+  "packSize": "Strip of 20 Capsules",
+  "brandQuery": "Becosules Z capsules Pfizer B-Complex B12 strip 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/cropped/jhd9m6kupfxuaqchyebl.jpg",
+      "sizeBytes": 204424
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/bmmx43u9317tg8bcosqt.jpg",
+      "sizeBytes": 119929
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/022250/becosules-z-strip-of-15-capsules-1-1721474635.jpg",
+      "sizeBytes": 86779
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/1/482831995/VC/SV/JW/30730643/becosules-z-capsule-500x500.jpeg",
+      "sizeBytes": 16991
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://5.imimg.com/data5/SELLER/PDFImage/2026/1/578903646/TM/VN/XW/79479582/pfizer-becosules-z-caps-1x20-sp-1000x1000.png",
+      "sizeBytes": 258956
+    }
+  ]
+}

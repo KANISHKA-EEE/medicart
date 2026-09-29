@@ -1,0 +1,41 @@
+{
+  "id": 20,
+  "name": "Nutritional Protein Powder 500g",
+  "manufacturer": "Protinex India",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Powder",
+  "packSize": "Jar of 500g",
+  "brandQuery": "Protinex Original Nutritional Protein Powder 500g jar 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.png",
+      "url": "https://www.mahalaxmimedicos.com/assets/upload/products/MM52141509373300.png",
+      "sizeBytes": 823484
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.png",
+      "url": "https://www.protinex.com/wp-content/themes/protinex/assets/images/proteinx_original1.png",
+      "sizeBytes": 52121
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://res.retailershakti.com/incom/images/product/Protinex-Original-Powder-1519715572-10027430.jpg",
+      "sizeBytes": 37029
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://tiimg.tistatic.com/fp/1/007/997/500-gram-promoted-health-build-muscles-and-body-protinex-powder-808.jpg",
+      "sizeBytes": 56677
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/6/WI/ZA/CO/58432191/protinex-original-powder-250x250.jpg",
+      "sizeBytes": 9387
+    }
+  ]
+}

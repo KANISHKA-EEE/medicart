@@ -1,0 +1,41 @@
+{
+  "id": 44,
+  "name": "Diabetes Care Breathable Socks",
+  "manufacturer": "Dr. Foot Medical",
+  "category": "Diabetes Care",
+  "dosageForm": "Apparel",
+  "packSize": "Pair of 2 Socks",
+  "brandQuery": "Dr Foot Diabetic Socks pair 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/C86853/dr-foot-diabetic-socks-for-men-women-2-pairs-7-1662460110.jpg",
+      "sizeBytes": 84410
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/C86853/dr-foot-diabetic-socks-for-men-women-2-pairs-6.6-1662460741.jpg",
+      "sizeBytes": 52719
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.drfootin.com/cdn/shop/products/61uaW69w1uL_94268277-9e04-4cb3-b8f1-40a50093dfa4.jpg?v=1688968510",
+      "sizeBytes": 97478
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://m.media-amazon.com/images/I/51AzUejtG1L._SL1080_.jpg",
+      "sizeBytes": 44039
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6cae0814-0aa4-49cd-b325-b5be50109cb3.__CR0,0,970,300_PT0_SX970_V1___.jpg",
+      "sizeBytes": 108005
+    }
+  ]
+}

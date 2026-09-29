@@ -1,0 +1,41 @@
+{
+  "id": 66,
+  "name": "Emergency Home First Aid Kit",
+  "manufacturer": "MediKit Safety",
+  "category": "First Aid",
+  "dosageForm": "Kit",
+  "packSize": "50-Piece Box",
+  "brandQuery": "Emergency Home First Aid Kit Box 50 piece 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.png",
+      "url": "https://img.lazcdn.com/g/p/5180ab1288c341cd3930b8a8bbda1c88.png_720x720q80.png",
+      "sizeBytes": 433542
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/10/457551987/NK/FX/OO/3759198/type-5-500x500.jpg",
+      "sizeBytes": 52890
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.yonoelfirstaid.com/yonoelfirstaid/2025/12/23/UN0203205.jpg",
+      "sizeBytes": 212939
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.yonoelfirstaid.com/yonoelfirstaid/2025/02/25/02017detail4-1.jpg",
+      "sizeBytes": 146339
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://firstaidsuppliesonline.com/wp-content/uploads/2023/11/34-RA6000-open.png",
+      "sizeBytes": 2474085
+    }
+  ]
+}

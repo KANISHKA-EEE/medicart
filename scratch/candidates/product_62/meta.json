@@ -1,0 +1,35 @@
+{
+  "id": 62,
+  "name": "Sterile Gauze Swabs 10x10cm",
+  "manufacturer": "Dyna-Gauze Medical",
+  "category": "First Aid",
+  "dosageForm": "Gauze Swabs",
+  "packSize": "Pack of 10 Swabs",
+  "brandQuery": "Dyna Gauze Sterile Gauze Swabs 10x10cm 10s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.harmonymedical.co.uk/media/catalog/product/cache/0a3feefb268d5a8abe2b8b0edb00bd40/p/r/premeir_sterile_gauze_swabs.jpg",
+      "sizeBytes": 23676
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://down-id.img.susercontent.com/file/8410e5cf28f50c8ff7efa91bbf151e0e",
+      "sizeBytes": 75736
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.royalsurgicals.in/wp-content/uploads/2022/11/10cm-x-10cm-x-12ply-sterile-5.jpg",
+      "sizeBytes": 19876
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://armedical.com.au/wp-content/uploads/2023/04/f53af6e451c69f07fa14d81a9e997405-600x600.jpg",
+      "sizeBytes": 33185
+    }
+  ]
+}

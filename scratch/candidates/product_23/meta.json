@@ -1,0 +1,41 @@
+{
+  "id": 23,
+  "name": "Joint Pain Relief Oil 100ml",
+  "manufacturer": "Orthovita Ayurveda",
+  "category": "Pain Relief",
+  "dosageForm": "Topical Oil",
+  "packSize": "Bottle of 100ml",
+  "brandQuery": "Orthovita joint pain relief oil 100ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.png",
+      "url": "https://www.planetayurveda.com/wp-content/uploads/2019/09/orthovita-oil-1-1.png",
+      "sizeBytes": 64136
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://meds.myupchar.com/39531/Planet_Ayurveda_Orthovita_Oil_100ml-1.jpg",
+      "sizeBytes": 35453
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2023/3/293204677/AL/FE/YF/149118223/joint-pain-relief-oil-500x500.jpg",
+      "sizeBytes": 32785
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/3/494403554/WY/OX/JH/211753487/img-6071-500x500.jpg",
+      "sizeBytes": 31866
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://www.healingpharma.in/wp-content/uploads/2022/03/orthojoint-pain-relief-oil.jpg",
+      "sizeBytes": 209647
+    }
+  ]
+}

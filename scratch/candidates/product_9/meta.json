@@ -1,0 +1,41 @@
+{
+  "id": 9,
+  "name": "Omeprazole 20mg Capsules",
+  "manufacturer": "Dr. Reddy's Labs",
+  "category": "Medicines",
+  "dosageForm": "Capsule",
+  "packSize": "Strip of 15 Capsules",
+  "brandQuery": "Omez 20 Dr Reddys Omeprazole 20mg capsule 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2023/4/298653695/CG/FU/DA/146546905/omez-omeprazole-capsule-1000x1000.jpg",
+      "sizeBytes": 58363
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://assets.truemeds.in/Images/ProductImage/TM-CACR1-004029/omez-capsule-20_omez-capsule-20--TM-CACR1-004029_1.png?width=320",
+      "sizeBytes": 43187
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.practostatic.com/practopedia-images/v3/res-750/omez-20mg-capsule-20-s_f795698c-6781-41fc-b7c1-e2fb40da715d.JPG",
+      "sizeBytes": 133258
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/6/PJ/ZX/CJ/147460468/omez-capsule-1000x1000.jpg",
+      "sizeBytes": 114866
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/9/IF/XA/IA/101315720/omeprazole-20mg-tablet-1000x1000.jpg",
+      "sizeBytes": 155417
+    }
+  ]
+}

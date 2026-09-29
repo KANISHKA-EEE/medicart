@@ -1,0 +1,35 @@
+{
+  "id": 54,
+  "name": "Intense Moisturizing Body Lotion",
+  "manufacturer": "Nivea Skin",
+  "category": "Personal Care",
+  "dosageForm": "Lotion",
+  "packSize": "Bottle of 200ml",
+  "brandQuery": "Nivea Body Lotion 200ml bottle 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I40910/nivea-aloe-hydration-body-lotion-bottle-of-200-ml-3-1679372236.jpg",
+      "sizeBytes": 55229
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I40904/nivea-body-milk-nourishing-lotion-bottle-of-200-ml-6.2-1641788371.jpg",
+      "sizeBytes": 22868
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I40904/nivea-body-milk-nourishing-lotion-bottle-of-200-ml-3-1669711195.jpg",
+      "sizeBytes": 68487
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I40904/nivea-body-milk-nourishing-lotion-bottle-of-200-ml-2-1679372239.jpg",
+      "sizeBytes": 27785
+    }
+  ]
+}

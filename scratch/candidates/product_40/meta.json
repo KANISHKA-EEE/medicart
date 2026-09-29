@@ -1,0 +1,23 @@
+{
+  "id": 40,
+  "name": "Antihistamine Cold Syrup 60ml",
+  "manufacturer": "Solvin Cold",
+  "category": "Cold & Flu",
+  "dosageForm": "Syrup",
+  "packSize": "Bottle of 60ml",
+  "brandQuery": "Solvin Cold Syrup 60ml Ipca 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/254980/solvin-cold-ds-syrup-60ml-3-1669358737.jpg",
+      "sizeBytes": 80896
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/12/AU/BD/HM/164011943/ipca-solvincold-cold-syrup-500x500.jpg",
+      "sizeBytes": 18475
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 47,
+  "name": "Ayurvedic Glucose Support (60s)",
+  "manufacturer": "Baidyanath Herbals",
+  "category": "Diabetes Care",
+  "dosageForm": "Capsule",
+  "packSize": "Bottle of 60 Capsules",
+  "brandQuery": "Baidyanath Madhumehari Ayurvedic Glucose Support 60s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/L65181/baidyanath-nagpur-madhumehari-granules-100-gms-controls-blood-sugar-levels-2-1677246138.jpg",
+      "sizeBytes": 71305
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://prachinayurvedkutir.com/media/catalog/product/cache/ad5535a6a6c293c073faeb0653596ba8/1/1/11540-1-400.jpg",
+      "sizeBytes": 28209
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/L65181/baidyanath-nagpur-madhumehari-granules-100-gms-controls-blood-sugar-levels-6.1-1677245346.jpg",
+      "sizeBytes": 68670
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.ayurscape.com/uploads/product/main/1752821767_13003_0.jpg",
+      "sizeBytes": 188240
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/S21864/baidyanath-madhumehari-yog-helps-in-all-types-of-diabetes-40-tablets-7-1664626319.jpg",
+      "sizeBytes": 56791
+    }
+  ]
+}

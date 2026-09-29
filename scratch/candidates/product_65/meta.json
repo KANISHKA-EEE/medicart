@@ -1,0 +1,41 @@
+{
+  "id": 65,
+  "name": "Sterile Absorbent Cotton Roll 100g",
+  "manufacturer": "Cottoncraft Health",
+  "category": "First Aid",
+  "dosageForm": "Cotton Roll",
+  "packSize": "Roll of 100g",
+  "brandQuery": "Absorbent Cotton Wool Roll 100g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://image.made-in-china.com/2f0j00IeZUBSvCLbqR/100-Cotton-Absorbent-Cotton-Wool-Roll-50g-100g-200g-500g-1000g.jpg",
+      "sizeBytes": 109163
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.surgical-dressing.com/photo/pl32229743-disposable_100g_absorbent_medical_cotton_wool_roll.jpg",
+      "sizeBytes": 30856
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/502088464/LY/OC/PM/146275373/100g-absorbent-cotton-wool-roll-1000x1000.png",
+      "sizeBytes": 132386
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://image.made-in-china.com/2f0j00fsBiEleFljoM/Absorbent-Cotton-Wool-Roll-25g-50g-100g-250g-400g-500g-1kgfarmasino-Pure-Cotton-White.jpg",
+      "sizeBytes": 90313
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/2/489105607/AP/NE/OW/146275373/100g-absorbent-cotton-wool-roll-1000x1000.jpg",
+      "sizeBytes": 17939
+    }
+  ]
+}

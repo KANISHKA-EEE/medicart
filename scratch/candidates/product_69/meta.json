@@ -1,0 +1,41 @@
+{
+  "id": 69,
+  "name": "Digital Body Thermometer",
+  "manufacturer": "Omron Healthcare",
+  "category": "First Aid",
+  "dosageForm": "Device",
+  "packSize": "1 Thermometer",
+  "brandQuery": "Omron Digital Thermometer MC-246 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8xMDE4MFwvMTAxODAtRGlnaXRhbC1UaGVybW9tZXRlci1PbXJvbi1NQy0yNDYtY29weS1ncnd3emwuanBlZyIsImVkaXRzIjpbXX0=",
+      "sizeBytes": 57963
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.mandjur.co.id/cdn/shop/files/ginee_20241106154142824_5485766265_700x700.png?v=1735956687",
+      "sizeBytes": 172543
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://lzd-img-global.slatic.net/g/p/a92c7317e1b49b708ed1a7a19eb0e2e6.png_720x720q80.png",
+      "sizeBytes": 186310
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://img.mbizmarket.co.id/products/thumbs/800x800/2024/03/06/06ee5490d754d7dbb6650bae59a0e7e5.jpg",
+      "sizeBytes": 49906
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://lzd-img-global.slatic.net/g/p/18f9c828296a9d4c1136c24b7c144f83.jpg_720x720q80.jpg",
+      "sizeBytes": 24789
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 15,
+  "name": "Iron + Folic Acid Capsules",
+  "manufacturer": "Dexorange Health",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Capsule",
+  "packSize": "Bottle of 30 Capsules",
+  "brandQuery": "Dexorange capsules Franco Indian 30s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn.netmeds.tech/v2/plain-cake-860195/netmed/wrkr/products/assets/item/free/resize-w:400/Z5u4DKMi8g-dexorange_capsule_30s_583765_1_0.jpg",
+      "sizeBytes": 23008
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/193763/dexorange-bottle-of-30-capsules-2-1641532058.jpg",
+      "sizeBytes": 54937
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn.netmeds.tech/v2/plain-cake-860195/netmed/wrkr/products/assets/item/free/resize-w:400/sJcsGs_2mb-dexorange_capsule_30s_583767_3_0.jpg",
+      "sizeBytes": 14602
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/193763/dexorange-bottle-of-30-capsules-3-1641532070.jpg",
+      "sizeBytes": 90284
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn.netmeds.tech/v2/plain-cake-860195/netmed/wrkr/products/assets/item/free/original/TuxCP0Eqx8-dexorange_capsule_30s_34342_0_1.jpg",
+      "sizeBytes": 37801
+    }
+  ]
+}

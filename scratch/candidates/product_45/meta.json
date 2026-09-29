@@ -1,0 +1,41 @@
+{
+  "id": 45,
+  "name": "Diabetic Protein Powder 400g",
+  "manufacturer": "Resource Diabetic",
+  "category": "Diabetes Care",
+  "dosageForm": "Powder",
+  "packSize": "Can of 400g",
+  "brandQuery": "Nestle Resource Diabetic Protein Powder 400g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35447/nestle-resource-diabetic-vanilla-flavour-protein-powder-box-of-400g-refil-6.7-1703741234.jpg",
+      "sizeBytes": 61382
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35447/nestle-resource-diabetic-vanilla-flavour-protein-powder-box-of-400g-refil-6.6-1694685046.jpg",
+      "sizeBytes": 70224
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35447/nestle-resource-diabetic-vanilla-flavour-protein-powder-box-of-400g-refil-6.5-1694685043.jpg",
+      "sizeBytes": 88962
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35447/nestle-resource-diabetic-vanilla-flavour-protein-powder-box-of-400g-refil-6.4-1694685052.jpg",
+      "sizeBytes": 106412
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35447/nestle-resource-vanilla-diabetic-powder-tin-of-400-g-2-1627717392.jpg",
+      "sizeBytes": 56323
+    }
+  ]
+}

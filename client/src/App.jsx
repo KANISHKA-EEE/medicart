@@ -3,14 +3,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider, useCart } from './context/CartContext';
 import Navbar from './components/Navbar';
-import CategoryNav from './components/CategoryNav';
+import WelcomeAnimation from './components/WelcomeAnimation';
 import Hero from './components/Hero';
+import TrustSection from './components/TrustSection';
 import CategoryCard from './components/CategoryCard';
 import ProductSection from './components/ProductSection';
 import WellnessSection from './components/WellnessSection';
 import PromoBanner from './components/PromoBanner';
 import Footer from './components/Footer';
 import CartModal from './components/CartModal';
+import PrescriptionUploadModal from './components/PrescriptionUploadModal';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Checkout from './components/Checkout';
@@ -42,12 +44,16 @@ function MainShopView({ showToast, toast }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
 
-  // Cart & About Modal Visibility
+  // Modal Visibility
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
 
+  // Prescription Upload Modal State
+  const [isRxModalOpen, setIsRxModalOpen] = useState(false);
+  const [rxTargetMedicine, setRxTargetMedicine] = useState(null);
+
   // Consume CartContext
-  const { addToCart } = useCart();
+  const { addToCart, prescriptionFile } = useCart();
 
   // Fetch backend /api/test on mount
   useEffect(() => {
@@ -94,6 +100,10 @@ function MainShopView({ showToast, toast }) {
   // Add to Cart Action
   const handleAddToCart = (product) => {
     const res = addToCart(product);
+    if (product.prescriptionRequired && !prescriptionFile) {
+      setRxTargetMedicine(product);
+      setIsRxModalOpen(true);
+    }
     if (res && res.message) {
       showToast(res.message);
     }
@@ -102,28 +112,37 @@ function MainShopView({ showToast, toast }) {
   // Buy Now Action
   const handleBuyNow = (product) => {
     const res = addToCart(product);
+    if (product.prescriptionRequired && !prescriptionFile) {
+      setRxTargetMedicine(product);
+      setIsRxModalOpen(true);
+    } else {
+      setIsCartOpen(true);
+    }
     if (res && res.message) {
       showToast(res.message);
     }
-    setIsCartOpen(true);
   };
 
   // Filter medicines dynamically
   const filteredProducts = medicines.filter((product) => {
     const matchesSearch =
+      !searchQuery ||
       (product.name && product.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (product.category && product.category.toLowerCase().includes(searchQuery.toLowerCase()));
+      (product.category && product.category.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (product.description && product.description.toLowerCase().includes(searchQuery.toLowerCase()));
 
     const matchesCategory =
       activeCategory === 'All' ||
-      (product.category && product.category.toLowerCase() === activeCategory.toLowerCase()) ||
-      (activeCategory === 'Medicines' && (product.category === 'Pain Relief' || product.category === 'Cold & Flu'));
+      (product.category && product.category.trim().toLowerCase() === activeCategory.trim().toLowerCase());
 
     return matchesSearch && matchesCategory;
   });
 
   return (
     <div className="app-layout">
+      {/* Welcome Animation on Initial Load */}
+      <WelcomeAnimation />
+
       {/* Toast Notification */}
       {toast && (
         <div className="toast-notification">
@@ -142,13 +161,6 @@ function MainShopView({ showToast, toast }) {
         onShowToast={showToast}
       />
 
-      {/* Category Sub Navigation Bar */}
-      <CategoryNav
-        activeCategory={activeCategory}
-        setActiveCategory={setActiveCategory}
-        onShowToast={showToast}
-      />
-
       {/* Hero Section */}
       <Hero
         onShopClick={() => {
@@ -160,6 +172,9 @@ function MainShopView({ showToast, toast }) {
           if (el) el.scrollIntoView({ behavior: 'smooth' });
         }}
       />
+
+      {/* Trust & Features Section */}
+      <TrustSection />
 
       {/* Shop By Category Section */}
       <section className="shop-by-category-section">
@@ -235,6 +250,18 @@ function MainShopView({ showToast, toast }) {
       <CartModal
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
+        onOpenRxModal={() => setIsRxModalOpen(true)}
+        onShowToast={showToast}
+      />
+
+      {/* Prescription Upload Modal */}
+      <PrescriptionUploadModal
+        isOpen={isRxModalOpen}
+        onClose={() => {
+          setIsRxModalOpen(false);
+          setRxTargetMedicine(null);
+        }}
+        targetMedicine={rxTargetMedicine}
         onShowToast={showToast}
       />
 

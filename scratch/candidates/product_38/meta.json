@@ -1,0 +1,35 @@
+{
+  "id": 38,
+  "name": "Sinus Relief Inhaler Stick",
+  "manufacturer": "Vicks Inhaler",
+  "category": "Cold & Flu",
+  "dosageForm": "Inhaler Stick",
+  "packSize": "Single Inhaler Stick",
+  "brandQuery": "Vicks Inhaler Stick sinus relief 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://purepharmacy.ie/cdn/shop/files/vicks-nasal-inhaler-stick-1_1a28c2a6-ed8f-45f7-a9a3-df7874bb883a_large.jpg?v=1687774926",
+      "sizeBytes": 29771
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.webp",
+      "url": "https://www.simplymedsonline.co.uk/storage/products/3576/images/vicks-inhaler-Vicks-Inhaler-Nasal-Stick.webp",
+      "sizeBytes": 19268
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.chemistconnect.com/images/vicks-inhaler-nasal-stick-p3154-2318_zoom.jpg",
+      "sizeBytes": 95164
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.assetpharmacy.com/wp-content/uploads/2023/12/Vicks-Inhaler-Nasal-Stick-1.jpg",
+      "sizeBytes": 75763
+    }
+  ]
+}

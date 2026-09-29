@@ -1,0 +1,41 @@
+{
+  "id": 73,
+  "name": "Gentle Baby Body Wash 250ml",
+  "manufacturer": "Sebamed Baby",
+  "category": "Baby Care",
+  "dosageForm": "Body Wash",
+  "packSize": "Bottle of 250ml",
+  "brandQuery": "Sebamed Baby Wash Extra Soft 250ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/196226/sebamed-baby-wash-extra-soft-200ml-3-1669634852.jpg",
+      "sizeBytes": 67648
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.cocci.com.ng/cdn/shop/products/Sebamed-Baby-Wash-Extra-Soft_400x_7a3a7cfa-ffe1-4f06-95db-629ffd83a759.jpg?v=1573251061",
+      "sizeBytes": 74939
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://jagsfresh-bucket.s3.amazonaws.com/media/package/img_one/2021-11-23/sebamed_baby_wash.jpg",
+      "sizeBytes": 83786
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://skinsociety.me/cdn/shop/files/sebamed-baby-wash-extra-soft-skin-society-shop-address-country-1_1024x.jpg?v=1686490404",
+      "sizeBytes": 52221
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://images-static.nykaa.com/media/catalog/product/7/3/734609d4103040012357_2.jpg",
+      "sizeBytes": 41226
+    }
+  ]
+}

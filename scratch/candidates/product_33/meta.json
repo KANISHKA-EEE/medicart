@@ -1,0 +1,29 @@
+{
+  "id": 33,
+  "name": "Nasal Saline Spray 50ml",
+  "manufacturer": "Otrivin Saline",
+  "category": "Cold & Flu",
+  "dosageForm": "Nasal Spray",
+  "packSize": "Bottle of 50ml",
+  "brandQuery": "Otrivin Saline Nasal Spray 50ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://i-cf65ch.gskstatic.com/content/dam/cf-consumer-healthcare/Otrivin/en_IN/Products/new/Otrivin-S-Nasal-Solution.png?auto=format",
+      "sizeBytes": 72387
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn.webshopapp.com/shops/61713/files/481715634/otrivin-xylometazolinehcl-1-mg-ml-nasal-spray.jpg",
+      "sizeBytes": 343373
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn.webshopapp.com/shops/61713/files/481715633/otrivin-xylometazolinehcl-1-mg-ml-nasal-spray.jpg",
+      "sizeBytes": 291034
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 17,
+  "name": "Zinc Sulphate 50mg Tablets",
+  "manufacturer": "Zinconia Nutra",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Tablet",
+  "packSize": "Bottle of 60 Tablets",
+  "brandQuery": "Zinconia 50mg tablet Apex Zinc Sulphate 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/193683/zinconia-50mg-tablet-combo-3-1629988031.jpg",
+      "sizeBytes": 123894
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/productsnowatermark/193683/zinconia-50mg-strip-of-10-tablets-front-2-1756893906-non-watermarked.jpg",
+      "sizeBytes": 110845
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.webp",
+      "url": "https://onlinedawaiwala.com/wp-content/uploads/2025/05/zinconia-50mg-tablet.webp",
+      "sizeBytes": 46006
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/6/515838035/AG/BJ/XT/204603664/zinconia-50mg-tab-s-500x500.jpeg",
+      "sizeBytes": 31216
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://www.practostatic.com/practopedia-images/v3/res-750/zinconia-50mg-tablet-10-s_9774a99a-d040-4c6b-b178-4a75a6863141.JPG",
+      "sizeBytes": 55172
+    }
+  ]
+}

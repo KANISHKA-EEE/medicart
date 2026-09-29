@@ -1,0 +1,35 @@
+{
+  "id": 64,
+  "name": "Medical Micropore Tape 1 inch",
+  "manufacturer": "3M Micropore",
+  "category": "First Aid",
+  "dosageForm": "Adhesive Tape",
+  "packSize": "1 Roll (9 meters)",
+  "brandQuery": "3M Micropore Surgical Tape 1 inch roll 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://store.medi-care.com.my/wp-content/uploads/2025/02/3m-micropore-surgical-tape-1530-1-12-roll-box.jpg",
+      "sizeBytes": 125303
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://i.ebayimg.com/images/g/2HUAAOSwoXhjrBZo/s-l1600.jpg",
+      "sizeBytes": 154216
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn10.bigcommerce.com/s-p10g1rn/products/900/images/1225/micropore-surgical-tape-family-photo__66363.1428510761.1280.1280.jpg?c=2",
+      "sizeBytes": 125239
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://i5.walmartimages.com/seo/3M-Micropore-Surgical-Tape-Paper-Easy-Tear-1-In-x-10-Yd-White-Non-Sterile-Latex-Free-Box-of-12-2-Count_15918c1c-37db-459c-847d-c8b39a5b6ea9.b982ed64a2f7c488fae9ff0696b3d6d7.jpeg",
+      "sizeBytes": 84565
+    }
+  ]
+}

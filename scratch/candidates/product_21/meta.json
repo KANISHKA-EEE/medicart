@@ -1,0 +1,41 @@
+{
+  "id": 21,
+  "name": "Fast Pain Relief Gel 50g",
+  "manufacturer": "Volini Healthcare",
+  "category": "Pain Relief",
+  "dosageForm": "Topical Gel",
+  "packSize": "Tube of 50g",
+  "brandQuery": "Volini Pain Relief Gel 50g tube 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-3-1671740959.jpg",
+      "sizeBytes": 34886
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-2-1661846476.jpg",
+      "sizeBytes": 82993
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-7-1661846600.jpg",
+      "sizeBytes": 82967
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-6.1-1671740959.jpg",
+      "sizeBytes": 75583
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-3-1607525412.jpg",
+      "sizeBytes": 39113
+    }
+  ]
+}

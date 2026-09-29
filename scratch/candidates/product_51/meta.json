@@ -1,0 +1,41 @@
+{
+  "id": 51,
+  "name": "Gentle Hydrating Face Wash 150ml",
+  "manufacturer": "Cetaphil Care",
+  "category": "Personal Care",
+  "dosageForm": "Liquid Gel",
+  "packSize": "Bottle of 150ml",
+  "brandQuery": "Cetaphil Gentle Skin Cleanser Face Wash 150ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.pharmacy24.ca/wp-content/uploads/2021/08/Cetaphil-Gentle-Skin-Cleanser.jpg",
+      "sizeBytes": 100552
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/5134fcc3-921c-424f-ab21-b58de51f980c.jpg?ts=1720594778",
+      "sizeBytes": 47032
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://makeshoppingeasy.com/wp-content/uploads/2024/11/image-3.png",
+      "sizeBytes": 262270
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.png",
+      "url": "https://drskincare.co.uk/wp-content/uploads/2023/06/unnamed-file.png",
+      "sizeBytes": 471812
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://www.cetaphil.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw2e3cbf8c/052384-GSC-16oz_Front.PNG",
+      "sizeBytes": 869456
+    }
+  ]
+}

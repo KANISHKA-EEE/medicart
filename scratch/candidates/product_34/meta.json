@@ -1,0 +1,41 @@
+{
+  "id": 34,
+  "name": "Cold & Fever Relief Tablets",
+  "manufacturer": "Cheston Cold",
+  "category": "Cold & Flu",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 10 Tablets",
+  "brandQuery": "Cheston Cold Tablet Cipla strip of 10 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.png",
+      "url": "https://nationalpharmacy.in/wp-content/uploads/2025/08/Screenshot-2025-08-05T221639.285.png",
+      "sizeBytes": 110123
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/039020/cheston-cold-new-formula-tablet-10s-6.1-1658934246.jpg",
+      "sizeBytes": 136185
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://nationalpharmacy.in/wp-content/uploads/2025/08/Screenshot-2025-08-05T221714.770.png",
+      "sizeBytes": 150389
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/ANDROID/Default/2023/10/349088165/EK/KP/UH/37877402/product-jpeg-500x500.jpg",
+      "sizeBytes": 16379
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://nicheformulations.com/wp-content/uploads/DRS059594_1.png",
+      "sizeBytes": 86057
+    }
+  ]
+}

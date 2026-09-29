@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "name": "Paracetamol 500mg Tablets",
+  "manufacturer": "Cipla Healthcare",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 15 Tablets",
+  "brandQuery": "Paracip 500 Cipla Paracetamol 500mg strip 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.webp",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2023/3/CK/JH/YP/182155837/paracip-paracetamol-tablet-500-mg-for-headache-10-tablets-500x500.webp",
+      "sizeBytes": 60836
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.png",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/3/592674270/NK/NK/EA/198319803/500-mg-cipla-paracip-paracetamol-tablet-1000x1000.png",
+      "sizeBytes": 455925
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/266954/paracip-500mg-tablet-3-1663313637.jpg",
+      "sizeBytes": 127262
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/4/505856640/VH/AB/BW/224034455/download-3-1000x1000.jpeg",
+      "sizeBytes": 99243
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/1/579253514/GO/QZ/JA/263084831/500-mg-paracip-paracetamol-1000x1000.jpg",
+      "sizeBytes": 72550
+    }
+  ]
+}

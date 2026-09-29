@@ -1,0 +1,41 @@
+{
+  "id": 76,
+  "name": "Intense Baby Moisturizing Cream 100g",
+  "manufacturer": "Mamaearth Baby",
+  "category": "Baby Care",
+  "dosageForm": "Cream",
+  "packSize": "Jar of 100g",
+  "brandQuery": "Mamaearth Daily Moisturizing Baby Lotion 100g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://bk.shajgoj.com/storage/2021/04/Mamaearth-Moisturizing-Daily-Lotion-For-Babies-100ml-1-updated.jpg",
+      "sizeBytes": 85568
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.distacart.com/cdn/shop/products/MoisturizingDailyLotionForBabies_100Ml_600x600.jpg?v=1623212910",
+      "sizeBytes": 36423
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://m.media-amazon.com/images/I/714prCiy4SL._SL1500_.jpg",
+      "sizeBytes": 94534
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.distacart.com/cdn/shop/products/stmDXTmKgB_1024x1024@2x.jpg?v=1621776374",
+      "sizeBytes": 28978
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://bk.shajgoj.com/storage/2020/09/Mamaearth-moisturizing-daily-lotion-for-babies-222.jpg",
+      "sizeBytes": 147385
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 74,
+  "name": "Aloe Vera Baby Wipes (Pack of 80)",
+  "manufacturer": "Pampers Gentle",
+  "category": "Baby Care",
+  "dosageForm": "Wet Wipes",
+  "packSize": "Pack of 80 Wipes",
+  "brandQuery": "Pampers Baby Wipes Aloe Vera 80s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn.grofers.com/da/cms-assets/cms/product/b09e031a-53f0-4978-8ddf-cecaa28b5521.jpg",
+      "sizeBytes": 86744
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/B21522/pampers-aloe-vera-baby-wipes-72-count-6.2-1671743812.jpg",
+      "sizeBytes": 85290
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/V43149/pampers-baby-gentle-wet-wipes-with-aloe-97-pure-water-144-count-6.7-1607325772.jpg",
+      "sizeBytes": 63459
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://newassets.apollo247.com/pub/media/catalog/product/p/a/pam0305_1.jpg",
+      "sizeBytes": 92871
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/B21522/pampers-aloe-vera-baby-wipes-72-count-6.1-1671743807.jpg",
+      "sizeBytes": 100419
+    }
+  ]
+}

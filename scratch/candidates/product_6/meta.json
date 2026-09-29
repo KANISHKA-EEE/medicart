@@ -1,0 +1,41 @@
+{
+  "id": 6,
+  "name": "Atorvastatin 10mg Tablets",
+  "manufacturer": "Lupin Ltd",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 15 Tablets",
+  "brandQuery": "Atorva 10 Lupin Atorvastatin 10mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/1/575558796/ML/IG/VK/258378215/atorva-10-mg-tablet-1000x1000.jpg",
+      "sizeBytes": 129940
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/1/575558799/DL/WJ/YK/258378215/atorva-atorvastatin-10-mg-tablets-1000x1000.jpg",
+      "sizeBytes": 137108
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/2/582494699/CC/MG/JR/45342411/atorva-10-atorvastatin-10mg-tablet-1000x1000.jpeg",
+      "sizeBytes": 30221
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://medimart.pk/wp-content/uploads/2023/11/0139.jpg",
+      "sizeBytes": 43415
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://i0.wp.com/lifeplusmm.com/wp-content/uploads/2022/07/80105208_Atorva-Atorvastatin-10mg-10_s.png",
+      "sizeBytes": 106836
+    }
+  ]
+}

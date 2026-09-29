@@ -14,7 +14,12 @@ import {
   Phone, 
   Mail, 
   ShoppingBag,
-  Clock
+  Clock,
+  FileText,
+  FileCheck,
+  Eye,
+  XCircle,
+  X
 } from 'lucide-react';
 
 export default function OrderDetails() {
@@ -24,6 +29,7 @@ export default function OrderDetails() {
   const [order, setOrder] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [previewModalFile, setPreviewModalFile] = useState(null);
 
   const navigate = useNavigate();
 
@@ -66,6 +72,36 @@ export default function OrderDetails() {
 
     fetchOrderDetails();
   }, [token, id]);
+
+  const handleViewPrescription = async (filename) => {
+    if (!filename || !token) return;
+
+    try {
+      const res = await fetch(`${API_BASE_URL}/api/orders/prescription-file/${filename}`, {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+
+      if (!res.ok) {
+        throw new Error('Failed to retrieve prescription file');
+      }
+
+      const blob = await res.blob();
+      const fileUrl = URL.createObjectURL(blob);
+      const isPdf = filename.toLowerCase().endsWith('.pdf') || blob.type === 'application/pdf';
+
+      setPreviewModalFile({
+        url: fileUrl,
+        filename: filename,
+        isPdf
+      });
+
+    } catch (err) {
+      console.error('View Prescription Error:', err);
+      alert('Unable to load prescription file. ' + err.message);
+    }
+  };
 
   if (!isAuthenticated) return null;
 
@@ -129,7 +165,7 @@ export default function OrderDetails() {
               </div>
               <div className="details-badges-row">
                 <span className={`status-pill status-${(order.status || 'Placed').toLowerCase()}`}>
-                  Status: {order.status || 'Placed'}
+                  Order Status: {order.status || 'Placed'}
                 </span>
                 <span className="payment-status-pill">
                   Payment: {order.paymentStatus || 'Pending'}
@@ -138,8 +174,65 @@ export default function OrderDetails() {
             </div>
 
             <div className="checkout-grid" style={{ marginTop: '2rem' }}>
-              {/* Left Column: Items & Delivery Address */}
+              {/* Left Column: Items, Prescription & Delivery Address */}
               <div className="details-left-column">
+                
+                {/* Prescription Status Section */}
+                {order.prescriptionRequired && (
+                  <section className="checkout-form-card" style={{ marginBottom: '2rem' }}>
+                    <div className="card-section-title">
+                      <FileText size={20} className="section-title-icon" />
+                      <h3>Prescription Verification</h3>
+                    </div>
+
+                    <div className={`customer-rx-status-box rx-box-${(order.prescriptionStatus || 'Pending Review').toLowerCase().replace(/\s+/g, '-')}`}>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+                          {order.prescriptionStatus === 'Approved' ? (
+                            <CheckCircle2 size={26} color="#16a34a" />
+                          ) : order.prescriptionStatus === 'Rejected' ? (
+                            <XCircle size={26} color="#dc2626" />
+                          ) : (
+                            <Clock size={26} color="#087ea4" />
+                          )}
+
+                          <div>
+                            <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700, color: '#1f2937' }}>
+                              Prescription Document: {order.prescriptionFile?.originalName || order.prescriptionFile?.filename || 'Uploaded Prescription'}
+                            </h4>
+                            <div style={{ fontSize: '0.82rem', color: '#64748b', marginTop: '2px' }}>
+                              Prescription Status: {' '}
+                              <span className={`status-pill rx-pill-${(order.prescriptionStatus || 'Pending Review').toLowerCase().replace(/\s+/g, '-')}`}>
+                                {order.prescriptionStatus === 'Pending Review' ? 'Pending Verification' : order.prescriptionStatus}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        {order.prescriptionFile?.filename && (
+                          <button 
+                            className="btn-secondary" 
+                            onClick={() => handleViewPrescription(order.prescriptionFile.filename)}
+                            style={{ fontSize: '0.82rem', padding: '0.45rem 0.9rem' }}
+                          >
+                            <Eye size={14} /> View Prescription
+                          </button>
+                        )}
+                      </div>
+
+                      {order.prescriptionStatus === 'Rejected' && order.prescriptionRejectionReason && (
+                        <div className="rx-rejection-reason-alert">
+                          <XCircle size={18} color="#b91c1c" style={{ flexShrink: 0 }} />
+                          <div>
+                            <strong>Rejection Reason from Pharmacy Admin:</strong>
+                            <p style={{ margin: '0.2rem 0 0', fontSize: '0.88rem' }}>{order.prescriptionRejectionReason}</p>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </section>
+                )}
+
                 {/* Purchased Items List */}
                 <section className="checkout-form-card" style={{ marginBottom: '2rem' }}>
                   <div className="card-section-title">
@@ -154,7 +247,12 @@ export default function OrderDetails() {
                           💊
                         </div>
                         <div className="details-item-info">
-                          <h4>{item.name}</h4>
+                          <h4>
+                            {item.name}
+                            {item.prescriptionRequired && (
+                              <span className="rx-item-tag">Prescription Required</span>
+                            )}
+                          </h4>
                           <span className="details-item-dosage">{item.dosageForm || 'Medicine'}</span>
                           <div className="details-item-pricing-line">
                             <span>₹{item.price} × {item.quantity}</span>
@@ -223,6 +321,30 @@ export default function OrderDetails() {
           </div>
         )}
       </main>
+
+      {/* Prescription Document Modal Preview */}
+      {previewModalFile && (
+        <div className="cart-modal-overlay" onClick={() => setPreviewModalFile(null)} style={{ zIndex: 1200 }}>
+          <div className="cart-modal-drawer" onClick={(e) => e.stopPropagation()} style={{ maxWidth: '720px', height: 'auto', maxHeight: '90vh', borderRadius: '16px', margin: 'auto', overflow: 'hidden' }}>
+            <div className="cart-drawer-header">
+              <div className="cart-drawer-title">
+                <FileText size={20} />
+                <h3>Prescription File: {previewModalFile.filename}</h3>
+              </div>
+              <button className="cart-close-btn" onClick={() => setPreviewModalFile(null)}>
+                <X size={20} />
+              </button>
+            </div>
+            <div style={{ padding: '1.5rem', textAlign: 'center', overflowY: 'auto', maxHeight: '75vh' }}>
+              {previewModalFile.isPdf ? (
+                <iframe src={previewModalFile.url} title="Prescription PDF" style={{ width: '100%', height: '500px', border: 'none', borderRadius: '8px' }} />
+              ) : (
+                <img src={previewModalFile.url} alt="Uploaded Prescription" style={{ maxWidth: '100%', maxHeight: '500px', borderRadius: '8px', objectFit: 'contain' }} />
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

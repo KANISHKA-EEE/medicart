@@ -1,0 +1,41 @@
+{
+  "id": 60,
+  "name": "Pure Aloe Vera Gel 150g Jar",
+  "manufacturer": "UrbanBotanics",
+  "category": "Personal Care",
+  "dosageForm": "Gel",
+  "packSize": "Jar of 150g",
+  "brandQuery": "UrbanBotanics Pure Aloe Vera Gel 150g jar 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/r1uvbn1dtbll8qctawji.jpg",
+      "sizeBytes": 183051
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://m.media-amazon.com/images/I/61-JgAEtEaL._SX679_.jpg",
+      "sizeBytes": 32888
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2022/05/Untitled-design-1-1-1024x512.jpg",
+      "sizeBytes": 30506
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.png",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhleBjHXfUPQeRn6qbm-yLkJ_4E9lXG4pf7CQLo8ngvgT8IK_A8QMo_CbxwoYs0kc5v89k0dC2csN77JBy1q1BTn759vxMcGxbajcmU8IjgfYNCSPBGGzte56_1ffsFBvFLLNvvxFLsr80/s720/20200607_083909.png",
+      "sizeBytes": 713998
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://img1.paisawapas.com/images/2022/07/18114011/Rectangle-1Urban-Botanics-Pure-Aloe-Vera-Gel.png",
+      "sizeBytes": 183221
+    }
+  ]
+}

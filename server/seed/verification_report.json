@@ -1,0 +1,807 @@
+{
+  "verifiedCount": 0,
+  "unverifiedCount": 80,
+  "totalProducts": 80,
+  "report": [
+    {
+      "productName": "Paracetamol 500mg Tablets",
+      "brand": "Cipla Healthcare",
+      "strength": "Tablet",
+      "packSize": "Strip of 15 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Cipla Healthcare' packaging for 'Paracetamol 500mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Amoxicillin 500mg Capsules",
+      "brand": "Sun Pharma",
+      "strength": "Capsule",
+      "packSize": "Strip of 10 Capsules",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Sun Pharma' packaging for 'Amoxicillin 500mg Capsules' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Metformin 500mg Tablets",
+      "brand": "USV Pvt Ltd",
+      "strength": "Tablet",
+      "packSize": "Strip of 20 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'USV Pvt Ltd' packaging for 'Metformin 500mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Pantoprazole 40mg Gastro-Resistant",
+      "brand": "Alkem Laboratories",
+      "strength": "Tablet",
+      "packSize": "Strip of 15 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Alkem Laboratories' packaging for 'Pantoprazole 40mg Gastro-Resistant' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Azithromycin 500mg Tablets",
+      "brand": "Zydus Healthcare",
+      "strength": "Tablet",
+      "packSize": "Strip of 5 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Zydus Healthcare' packaging for 'Azithromycin 500mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Atorvastatin 10mg Tablets",
+      "brand": "Lupin Ltd",
+      "strength": "Tablet",
+      "packSize": "Strip of 15 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Lupin Ltd' packaging for 'Atorvastatin 10mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Telmisartan 40mg Tablets",
+      "brand": "Glenmark Pharma",
+      "strength": "Tablet",
+      "packSize": "Strip of 15 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Glenmark Pharma' packaging for 'Telmisartan 40mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Montelukast 10mg Tablets",
+      "brand": "Mankind Pharma",
+      "strength": "Tablet",
+      "packSize": "Strip of 10 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Mankind Pharma' packaging for 'Montelukast 10mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Omeprazole 20mg Capsules",
+      "brand": "Dr. Reddy's Labs",
+      "strength": "Capsule",
+      "packSize": "Strip of 15 Capsules",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dr. Reddy's Labs' packaging for 'Omeprazole 20mg Capsules' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Amlodipine 5mg Tablets",
+      "brand": "Torrent Pharma",
+      "strength": "Tablet",
+      "packSize": "Strip of 15 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Torrent Pharma' packaging for 'Amlodipine 5mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Daily Multivitamin Tablets",
+      "brand": "HealthVit Organics",
+      "strength": "Tablet",
+      "packSize": "Bottle of 60 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'HealthVit Organics' packaging for 'Daily Multivitamin Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Vitamin C 500mg Chewable",
+      "brand": "Limcee Wellness",
+      "strength": "Chewable Tablet",
+      "packSize": "Bottle of 60 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Limcee Wellness' packaging for 'Vitamin C 500mg Chewable' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Vitamin D3 60,000 IU Nano Shots",
+      "brand": "Cadila Healthcare",
+      "strength": "Oral Liquid Shot",
+      "packSize": "Pack of 4 Shots (5ml each)",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Cadila Healthcare' packaging for 'Vitamin D3 60,000 IU Nano Shots' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Calcium + Vitamin D3 Tablets",
+      "brand": "Shelcal Care",
+      "strength": "Tablet",
+      "packSize": "Bottle of 60 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Shelcal Care' packaging for 'Calcium + Vitamin D3 Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Iron + Folic Acid Capsules",
+      "brand": "Dexorange Health",
+      "strength": "Capsule",
+      "packSize": "Bottle of 30 Capsules",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dexorange Health' packaging for 'Iron + Folic Acid Capsules' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Vitamin B-Complex with B12",
+      "brand": "Becosules Wellness",
+      "strength": "Capsule",
+      "packSize": "Strip of 20 Capsules",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Becosules Wellness' packaging for 'Vitamin B-Complex with B12' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Zinc Sulphate 50mg Tablets",
+      "brand": "Zinconia Nutra",
+      "strength": "Tablet",
+      "packSize": "Bottle of 60 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Zinconia Nutra' packaging for 'Zinc Sulphate 50mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Omega-3 Fish Oil 1000mg",
+      "brand": "WOW Life Science",
+      "strength": "Softgel Capsule",
+      "packSize": "Bottle of 60 Softgels",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'WOW Life Science' packaging for 'Omega-3 Fish Oil 1000mg' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Magnesium Glycinate 400mg",
+      "brand": "Carbamide Forte",
+      "strength": "Tablet",
+      "packSize": "Bottle of 60 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Carbamide Forte' packaging for 'Magnesium Glycinate 400mg' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Nutritional Protein Powder 500g",
+      "brand": "Protinex India",
+      "strength": "Powder",
+      "packSize": "Jar of 500g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Protinex India' packaging for 'Nutritional Protein Powder 500g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Fast Pain Relief Gel 50g",
+      "brand": "Volini Healthcare",
+      "strength": "Topical Gel",
+      "packSize": "Tube of 50g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Volini Healthcare' packaging for 'Fast Pain Relief Gel 50g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Herbal Muscle Pain Balm 45g",
+      "brand": "Zandu Herbals",
+      "strength": "Balm",
+      "packSize": "Jar of 45g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Zandu Herbals' packaging for 'Herbal Muscle Pain Balm 45g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Joint Pain Relief Oil 100ml",
+      "brand": "Orthovita Ayurveda",
+      "strength": "Topical Oil",
+      "packSize": "Bottle of 100ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Orthovita Ayurveda' packaging for 'Joint Pain Relief Oil 100ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Headache & Migraine Roll-On",
+      "brand": "Amrutanjan Healthcare",
+      "strength": "Roll-On Liquid",
+      "packSize": "Roll-On Stick 10ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Amrutanjan Healthcare' packaging for 'Headache & Migraine Roll-On' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Diclofenac Pain Spray 55g",
+      "brand": "Moov Express",
+      "strength": "Aerosol Spray",
+      "packSize": "Can of 55g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Moov Express' packaging for 'Diclofenac Pain Spray 55g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Ibuprofen 400mg Tablets",
+      "brand": "Abbott India",
+      "strength": "Tablet",
+      "packSize": "Strip of 15 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Abbott India' packaging for 'Ibuprofen 400mg Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Back Pain Relief Patch (5s)",
+      "brand": "Salonpas Care",
+      "strength": "Adhesive Patch",
+      "packSize": "Box of 5 Patches",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Salonpas Care' packaging for 'Back Pain Relief Patch (5s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Neck & Shoulder Pain Ointment",
+      "brand": "Omnigel Relief",
+      "strength": "Ointment",
+      "packSize": "Tube of 30g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Omnigel Relief' packaging for 'Neck & Shoulder Pain Ointment' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Period Cramp Relief Patch (3s)",
+      "brand": "Pee Safe Care",
+      "strength": "Thermal Patch",
+      "packSize": "Box of 3 Patches",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Pee Safe Care' packaging for 'Period Cramp Relief Patch (3s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Foot & Heel Relief Cream 50g",
+      "brand": "Dr. Scholl's Health",
+      "strength": "Cream",
+      "packSize": "Tube of 50g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dr. Scholl's Health' packaging for 'Foot & Heel Relief Cream 50g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Herbal Cough Syrup 100ml",
+      "brand": "Dabur India",
+      "strength": "Syrup",
+      "packSize": "Bottle of 100ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dabur India' packaging for 'Herbal Cough Syrup 100ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Menthol Throat Lozenges (20s)",
+      "brand": "Strepsils Care",
+      "strength": "Lozenges",
+      "packSize": "Pack of 20 Lozenges",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Strepsils Care' packaging for 'Menthol Throat Lozenges (20s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Nasal Saline Spray 50ml",
+      "brand": "Otrivin Saline",
+      "strength": "Nasal Spray",
+      "packSize": "Bottle of 50ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Otrivin Saline' packaging for 'Nasal Saline Spray 50ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Cold & Fever Relief Tablets",
+      "brand": "Cheston Cold",
+      "strength": "Tablet",
+      "packSize": "Strip of 10 Tablets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Cheston Cold' packaging for 'Cold & Fever Relief Tablets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sore Throat Gargle Solution",
+      "brand": "Betadine Care",
+      "strength": "Gargle Liquid",
+      "packSize": "Bottle of 100ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Betadine Care' packaging for 'Sore Throat Gargle Solution' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Chest Vapor Rub 50g Jar",
+      "brand": "Vicks Health",
+      "strength": "Vapor Rub",
+      "packSize": "Jar of 50g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Vicks Health' packaging for 'Chest Vapor Rub 50g Jar' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Herbal Cough Drops (Pack of 25)",
+      "brand": "Himalaya Wellness",
+      "strength": "Cough Drops",
+      "packSize": "Pack of 25 Drops",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Himalaya Wellness' packaging for 'Herbal Cough Drops (Pack of 25)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sinus Relief Inhaler Stick",
+      "brand": "Vicks Inhaler",
+      "strength": "Inhaler Stick",
+      "packSize": "Single Inhaler Stick",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Vicks Inhaler' packaging for 'Sinus Relief Inhaler Stick' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Steam Inhalation Capsules (10s)",
+      "brand": "Karvol Plus",
+      "strength": "Softgel Inhalant",
+      "packSize": "Pack of 10 Capsules",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Karvol Plus' packaging for 'Steam Inhalation Capsules (10s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Antihistamine Cold Syrup 60ml",
+      "brand": "Solvin Cold",
+      "strength": "Syrup",
+      "packSize": "Bottle of 60ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Solvin Cold' packaging for 'Antihistamine Cold Syrup 60ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Digital Blood Glucose Monitor Kit",
+      "brand": "Accu-Chek Care",
+      "strength": "Testing Device Kit",
+      "packSize": "1 Kit",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Accu-Chek Care' packaging for 'Digital Blood Glucose Monitor Kit' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Blood Glucose Test Strips (50s)",
+      "brand": "OneTouch Select",
+      "strength": "Test Strips",
+      "packSize": "Box of 50 Strips",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'OneTouch Select' packaging for 'Blood Glucose Test Strips (50s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sterile Blood Lancets (100s)",
+      "brand": "Dr. Morepen Care",
+      "strength": "Sterile Lancets",
+      "packSize": "Box of 100 Lancets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dr. Morepen Care' packaging for 'Sterile Blood Lancets (100s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Diabetes Care Breathable Socks",
+      "brand": "Dr. Foot Medical",
+      "strength": "Apparel",
+      "packSize": "Pair of 2 Socks",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dr. Foot Medical' packaging for 'Diabetes Care Breathable Socks' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Diabetic Protein Powder 400g",
+      "brand": "Resource Diabetic",
+      "strength": "Powder",
+      "packSize": "Can of 400g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Resource Diabetic' packaging for 'Diabetic Protein Powder 400g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Diabetes Foot Care Cream 100g",
+      "brand": "Footcare Pharma",
+      "strength": "Cream",
+      "packSize": "Tube of 100g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Footcare Pharma' packaging for 'Diabetes Foot Care Cream 100g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Ayurvedic Glucose Support (60s)",
+      "brand": "Baidyanath Herbals",
+      "strength": "Capsule",
+      "packSize": "Bottle of 60 Capsules",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Baidyanath Herbals' packaging for 'Ayurvedic Glucose Support (60s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Insulin Pen Needles 4mm (100s)",
+      "brand": "BD Micro-Fine",
+      "strength": "Medical Needles",
+      "packSize": "Box of 100 Needles",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'BD Micro-Fine' packaging for 'Insulin Pen Needles 4mm (100s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sugar-Free Sweetener Pellets",
+      "brand": "Sugar Free Natura",
+      "strength": "Pellets",
+      "packSize": "Dispenser of 100 Pellets",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Sugar Free Natura' packaging for 'Sugar-Free Sweetener Pellets' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Glucose Energy Powder 200g",
+      "brand": "Dabur Glucose-D",
+      "strength": "Powder",
+      "packSize": "Pack of 200g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dabur Glucose-D' packaging for 'Glucose Energy Powder 200g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Gentle Hydrating Face Wash 150ml",
+      "brand": "Cetaphil Care",
+      "strength": "Liquid Gel",
+      "packSize": "Bottle of 150ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Cetaphil Care' packaging for 'Gentle Hydrating Face Wash 150ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Nourishing Body Wash 250ml",
+      "brand": "Dove Body Care",
+      "strength": "Body Wash",
+      "packSize": "Bottle of 250ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dove Body Care' packaging for 'Nourishing Body Wash 250ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Antibacterial Hand Wash 500ml",
+      "brand": "Dettol Hygiene",
+      "strength": "Liquid Soap",
+      "packSize": "Pump Bottle 500ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dettol Hygiene' packaging for 'Antibacterial Hand Wash 500ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Intense Moisturizing Body Lotion",
+      "brand": "Nivea Skin",
+      "strength": "Lotion",
+      "packSize": "Bottle of 200ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Nivea Skin' packaging for 'Intense Moisturizing Body Lotion' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Anti-Dandruff Shampoo 250ml",
+      "brand": "Head & Shoulders",
+      "strength": "Shampoo",
+      "packSize": "Bottle of 250ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Head & Shoulders' packaging for 'Anti-Dandruff Shampoo 250ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Smooth Repair Hair Conditioner",
+      "brand": "Tresemme Hair",
+      "strength": "Conditioner",
+      "packSize": "Bottle of 200ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Tresemme Hair' packaging for 'Smooth Repair Hair Conditioner' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sunscreen Lotion SPF 50+ PA+++",
+      "brand": "Neutrogena Derm",
+      "strength": "Sunscreen Lotion",
+      "packSize": "Tube of 100ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Neutrogena Derm' packaging for 'Sunscreen Lotion SPF 50+ PA+++' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Hydrating Lip Balm 10g Tube",
+      "brand": "Sebamed Lip",
+      "strength": "Lip Care Balm",
+      "packSize": "Tube of 10g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Sebamed Lip' packaging for 'Hydrating Lip Balm 10g Tube' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Deep Hydration Body Lotion 400ml",
+      "brand": "Vaseline Derm",
+      "strength": "Lotion",
+      "packSize": "Pump Bottle 400ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Vaseline Derm' packaging for 'Deep Hydration Body Lotion 400ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Pure Aloe Vera Gel 150g Jar",
+      "brand": "UrbanBotanics",
+      "strength": "Gel",
+      "packSize": "Jar of 150g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'UrbanBotanics' packaging for 'Pure Aloe Vera Gel 150g Jar' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Waterproof Adhesive Bandages (100s)",
+      "brand": "Band-Aid Johnson",
+      "strength": "Adhesive Bandages",
+      "packSize": "Box of 100 Strips",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Band-Aid Johnson' packaging for 'Waterproof Adhesive Bandages (100s)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sterile Gauze Swabs 10x10cm",
+      "brand": "Dyna-Gauze Medical",
+      "strength": "Gauze Swabs",
+      "packSize": "Pack of 10 Swabs",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dyna-Gauze Medical' packaging for 'Sterile Gauze Swabs 10x10cm' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Antiseptic Liquid Solution 250ml",
+      "brand": "Savlon Healthcare",
+      "strength": "Antiseptic Liquid",
+      "packSize": "Bottle of 250ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Savlon Healthcare' packaging for 'Antiseptic Liquid Solution 250ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Medical Micropore Tape 1 inch",
+      "brand": "3M Micropore",
+      "strength": "Adhesive Tape",
+      "packSize": "1 Roll (9 meters)",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic '3M Micropore' packaging for 'Medical Micropore Tape 1 inch' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Sterile Absorbent Cotton Roll 100g",
+      "brand": "Cottoncraft Health",
+      "strength": "Cotton Roll",
+      "packSize": "Roll of 100g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Cottoncraft Health' packaging for 'Sterile Absorbent Cotton Roll 100g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Emergency Home First Aid Kit",
+      "brand": "MediKit Safety",
+      "strength": "Kit",
+      "packSize": "50-Piece Box",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'MediKit Safety' packaging for 'Emergency Home First Aid Kit' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Antiseptic Wound Healing Ointment",
+      "brand": "Cipladine Ointment",
+      "strength": "Ointment",
+      "packSize": "Tube of 30g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Cipladine Ointment' packaging for 'Antiseptic Wound Healing Ointment' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Elastic Compression Bandage 4 Inch",
+      "brand": "Hansaplast Crepe",
+      "strength": "Bandage",
+      "packSize": "1 Roll",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Hansaplast Crepe' packaging for 'Elastic Compression Bandage 4 Inch' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Digital Body Thermometer",
+      "brand": "Omron Healthcare",
+      "strength": "Device",
+      "packSize": "1 Thermometer",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Omron Healthcare' packaging for 'Digital Body Thermometer' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Burn Relief Antiseptic Cream 20g",
+      "brand": "Burnol Relief",
+      "strength": "Cream",
+      "packSize": "Tube of 20g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Burnol Relief' packaging for 'Burn Relief Antiseptic Cream 20g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Gentle Tear-Free Baby Shampoo 200ml",
+      "brand": "Johnson's Baby",
+      "strength": "Baby Shampoo",
+      "packSize": "Bottle of 200ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Johnson's Baby' packaging for 'Gentle Tear-Free Baby Shampoo 200ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Nourishing Baby Lotion 200ml",
+      "brand": "Himalaya BabyCare",
+      "strength": "Lotion",
+      "packSize": "Bottle of 200ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Himalaya BabyCare' packaging for 'Nourishing Baby Lotion 200ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Gentle Baby Body Wash 250ml",
+      "brand": "Sebamed Baby",
+      "strength": "Body Wash",
+      "packSize": "Bottle of 250ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Sebamed Baby' packaging for 'Gentle Baby Body Wash 250ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Aloe Vera Baby Wipes (Pack of 80)",
+      "brand": "Pampers Gentle",
+      "strength": "Wet Wipes",
+      "packSize": "Pack of 80 Wipes",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Pampers Gentle' packaging for 'Aloe Vera Baby Wipes (Pack of 80)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Zinc Oxide Diaper Rash Cream 50g",
+      "brand": "Desitin Care",
+      "strength": "Cream",
+      "packSize": "Tube of 50g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Desitin Care' packaging for 'Zinc Oxide Diaper Rash Cream 50g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Intense Baby Moisturizing Cream 100g",
+      "brand": "Mamaearth Baby",
+      "strength": "Cream",
+      "packSize": "Jar of 100g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Mamaearth Baby' packaging for 'Intense Baby Moisturizing Cream 100g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Pure & Mild Baby Powder 200g",
+      "brand": "Mee Mee Care",
+      "strength": "Powder",
+      "packSize": "Bottle of 200g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Mee Mee Care' packaging for 'Pure & Mild Baby Powder 200g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Natural Baby Massage Oil 200ml",
+      "brand": "Dabur Lal Tail",
+      "strength": "Oil",
+      "packSize": "Bottle of 200ml",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Dabur Lal Tail' packaging for 'Natural Baby Massage Oil 200ml' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Gentle Baby Skincare Soap Bar (100g)",
+      "brand": "Chicco Baby",
+      "strength": "Soap Bar",
+      "packSize": "Bar of 100g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Chicco Baby' packaging for 'Gentle Baby Skincare Soap Bar (100g)' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    },
+    {
+      "productName": "Baby Oral Teething Gel 15g",
+      "brand": "Bonjela Teething",
+      "strength": "Gel",
+      "packSize": "Tube of 15g",
+      "imageFilename": "fallback_medicine.svg",
+      "imageSource": "Kanishka Pharmacy Standard Placeholder SVG",
+      "status": "IMAGE_NOT_VERIFIED",
+      "reason": "An exact real product photograph showing authentic 'Bonjela Teething' packaging for 'Baby Oral Teething Gel 15g' could not be verified from official manufacturer catalogues. Generic Unsplash photography rejected per accuracy policy."
+    }
+  ]
+}

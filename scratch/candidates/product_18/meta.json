@@ -1,0 +1,41 @@
+{
+  "id": 18,
+  "name": "Omega-3 Fish Oil 1000mg",
+  "manufacturer": "WOW Life Science",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Softgel Capsule",
+  "packSize": "Bottle of 60 Softgels",
+  "brandQuery": "WOW Life Science Omega 3 Fish Oil 1000mg 60 softgels 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.webp",
+      "url": "https://images.freekaamaal.com/post_images/1649074579.webp",
+      "sizeBytes": 62296
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.webp",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/5/608944642/AY/NM/YN/265080559/wow-life-science-omega-3-fish-oil-1000mg-1-1000x1000.webp",
+      "sizeBytes": 62817
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/LM/DL/BI/SELLER-90881483/wow-life-science-omega-3-fish-oil-60-capsules-1000x1000.JPG",
+      "sizeBytes": 50156
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/251df19c-67c3-4d2d-90c5-2b75e83752ad.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "sizeBytes": 454272
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/38403a2a-d8ca-4aba-a58d-c7d12eda36fb.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "sizeBytes": 367416
+    }
+  ]
+}

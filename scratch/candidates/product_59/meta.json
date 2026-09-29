@@ -1,0 +1,35 @@
+{
+  "id": 59,
+  "name": "Deep Hydration Body Lotion 400ml",
+  "manufacturer": "Vaseline Derm",
+  "category": "Personal Care",
+  "dosageForm": "Lotion",
+  "packSize": "Pump Bottle 400ml",
+  "brandQuery": "Vaseline Intensive Care Body Lotion 400ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/T39964/vaseline-intensive-care-cocoa-glow-body-lotion-400-ml-6.2-1641788602.jpg",
+      "sizeBytes": 65045
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/T39964/vaseline-intensive-care-cocoa-glow-body-lotion-400-ml-6.3-1641788604.jpg",
+      "sizeBytes": 69518
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://droni.com.bd/wp-content/uploads/2023/10/vaseline-intensive-care-deep-moisture-body-lotion-400ml.jpg",
+      "sizeBytes": 78863
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/L60242/vaseline-intensive-care-deep-moisture-body-lotion-bottle-of-400-ml-6.6-1641788595.jpg",
+      "sizeBytes": 64726
+    }
+  ]
+}

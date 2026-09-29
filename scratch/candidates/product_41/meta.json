@@ -1,0 +1,41 @@
+{
+  "id": 41,
+  "name": "Digital Blood Glucose Monitor Kit",
+  "manufacturer": "Accu-Chek Care",
+  "category": "Diabetes Care",
+  "dosageForm": "Testing Device Kit",
+  "packSize": "1 Kit",
+  "brandQuery": "Accu-Chek Active Blood Glucose Monitor Kit 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/000660/accu-chek-active-glucometer-kit-with-free-10-strips-3-1669655245.jpg",
+      "sizeBytes": 75783
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://5.imimg.com/data5/WT/RC/DJ/SELLER-109350176/accu-chek-active-blood-glucose-meter-kit-with-10-strips-free.jpg",
+      "sizeBytes": 187178
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://newassets.apollo247.com/pub/media/catalog/product/a/c/acc0005-1.jpg",
+      "sizeBytes": 79894
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://m.media-amazon.com/images/I/614kGUJTB8L._SL1080_.jpg",
+      "sizeBytes": 97926
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/8e38e72ab46845c38b49b2bf252c367d.jpg",
+      "sizeBytes": 8766
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 78,
+  "name": "Natural Baby Massage Oil 200ml",
+  "manufacturer": "Dabur Lal Tail",
+  "category": "Baby Care",
+  "dosageForm": "Oil",
+  "packSize": "Bottle of 200ml",
+  "brandQuery": "Dabur Lal Tail 200ml bottle baby massage oil 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://5.imimg.com/data5/ANDROID/Default/2024/4/410879593/HW/ML/AH/99677261/product-jpeg-500x500.jpg",
+      "sizeBytes": 18749
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.png",
+      "url": "https://mallowco.com/uploads/product-photos/sbksllb3aov36u2y5ijwir3.png",
+      "sizeBytes": 113509
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://www.nepmeds.com.np/public/files/jj-20210530103710-cdDg4Z.png",
+      "sizeBytes": 525481
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cpimg.tistatic.com/11689169/b/4/dabur-lal-tail-baby-200ml.jpeg",
+      "sizeBytes": 47662
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://rukminim2.flixcart.com/image/480/640/xif0q/massage-oil/v/y/e/200-lal-tail-ayurvedic-baby-oil-200ml-dbr1-dabur-original-imagwdh9w46hv4j9.jpeg?q=90",
+      "sizeBytes": 52779
+    }
+  ]
+}

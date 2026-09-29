@@ -1,0 +1,29 @@
+{
+  "id": 50,
+  "name": "Glucose Energy Powder 200g",
+  "manufacturer": "Dabur Glucose-D",
+  "category": "Diabetes Care",
+  "dosageForm": "Powder",
+  "packSize": "Pack of 200g",
+  "brandQuery": "Dabur Glucose-D Energy Powder 200g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://m.media-amazon.com/images/I/71jk-sPgdML._SL1500_.jpg",
+      "sizeBytes": 133570
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://m.media-amazon.com/images/I/71sw9hgY6+L._SL1500_.jpg",
+      "sizeBytes": 142458
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn.pixelbin.io/v2/plain-cake-860195/netmed/wrkr/products/pictures/item/free/original/4_WDsgv-n8-dabur_glucose_d_energy_boost_200_gm_with_free_50_gm_0.jpg",
+      "sizeBytes": 35196
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 37,
+  "name": "Herbal Cough Drops (Pack of 25)",
+  "manufacturer": "Himalaya Wellness",
+  "category": "Cold & Flu",
+  "dosageForm": "Cough Drops",
+  "packSize": "Pack of 25 Drops",
+  "brandQuery": "Himalaya Koflet Lozenges cough drops 25s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://newassets.apollo247.com/pub/media/catalog/product/h/i/him0249.jpg",
+      "sizeBytes": 200700
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "http://cdn.shopify.com/s/files/1/0272/4714/9155/products/koflet-lozenges_1200x1200.jpg?v=1622098163",
+      "sizeBytes": 144701
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.webp",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/10/458553933/II/YC/MD/3792679/himalaya-cough-drops-1000x1000.webp",
+      "sizeBytes": 51245
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn.grofers.com/da/cms-assets/cms/product/4b25a3f5-b0cd-498d-8b3a-72b280907328.jpg",
+      "sizeBytes": 70600
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn.grofers.com/da/cms-assets/cms/product/a0c82390-2654-42f5-8bc6-596e75d00a0b.jpg",
+      "sizeBytes": 48021
+    }
+  ]
+}

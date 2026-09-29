@@ -1,0 +1,41 @@
+{
+  "id": 61,
+  "name": "Waterproof Adhesive Bandages (100s)",
+  "manufacturer": "Band-Aid Johnson",
+  "category": "First Aid",
+  "dosageForm": "Adhesive Bandages",
+  "packSize": "Box of 100 Strips",
+  "brandQuery": "Band-Aid Waterproof Bandages Johnson & Johnson 100s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/G30393/johnsons-band-aid-washproof-bandage-10-1-1671741909.jpg",
+      "sizeBytes": 77696
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0449/1336/1050/products/0381371161440_A1L1_ItemMaster_type_large_913da1a8-1be4-4e50-90be-4710ad429563_1024x1024.jpg?v=1601492902",
+      "sizeBytes": 55244
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.medline.com/media/catalog/sku/JIP/300x300/JIP100483300_PRI01.JPG",
+      "sizeBytes": 52073
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/Y34533/johnsons-band-aid-flexi-bandage-100-2-1639731278.jpg",
+      "sizeBytes": 78182
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn11.bigcommerce.com/s-x52z659sqc/products/64827/images/64304/493578b0e9ec458a795628fcdd4186f5a48be711__39373.1758195104.386.513.jpg?c=1",
+      "sizeBytes": 40751
+    }
+  ]
+}

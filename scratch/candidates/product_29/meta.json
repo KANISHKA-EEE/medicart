@@ -1,0 +1,41 @@
+{
+  "id": 29,
+  "name": "Period Cramp Relief Patch (3s)",
+  "manufacturer": "Pee Safe Care",
+  "category": "Pain Relief",
+  "dosageForm": "Thermal Patch",
+  "packSize": "Box of 3 Patches",
+  "brandQuery": "Pee Safe Period Cramp Relief Patch 3s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/df36815a1ff9419e9358f3cd3454ec04.jpg",
+      "sizeBytes": 47823
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.peesafe.com/cdn/shop/files/benefits_3_e8ec3bc8-719a-42ee-9999-b29b6e9c14ef.jpg?v=1690349892",
+      "sizeBytes": 130243
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto,q_auto:eco,c_limit/rashmi-k-manjunath-1.jpg",
+      "sizeBytes": 38593
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.gosupps.com/media/catalog/product/cache/25/image/1500x/040ec09b1e35df139433887a97daa66f/6/1/617OngljtUL._AC_SL1080_.jpg",
+      "sizeBytes": 110758
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn.grofers.com/da/cms-assets/cms/product/9f2b13d6-d33f-440a-92a7-2c75f1bc7659.jpg",
+      "sizeBytes": 71128
+    }
+  ]
+}

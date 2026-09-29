@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, ShoppingCart, Zap, CheckCircle2, Pill, Sun, ShieldAlert, Activity, Thermometer, Sparkles, Cross } from 'lucide-react';
+import { Star, ShoppingCart, CheckCircle2, Pill, Sun, ShieldAlert, Activity, Thermometer, Sparkles, Cross, Zap, FileText } from 'lucide-react';
 
 const iconMap = {
   Pill: Pill,
@@ -12,11 +12,10 @@ const iconMap = {
   Sparkles: Sparkles
 };
 
-export default function ProductCard({ product, onAddToCart, onBuyNow }) {
+export default function ProductCard({ product, onAddToCart, onBuyNow, onOpenPrescriptionModal }) {
   const iconName = product.iconName || 'Pill';
   const IconComp = iconMap[iconName] || Pill;
 
-  const imageBg = product.imageBg || '#e0f2fe';
   const dosageForm = product.dosageForm || product.packSize || 'Medicine';
   const rating = product.rating !== undefined && product.rating !== null ? product.rating : 4.5;
   const reviewsCount = product.reviewsCount !== undefined && product.reviewsCount !== null ? product.reviewsCount : 120;
@@ -35,18 +34,41 @@ export default function ProductCard({ product, onAddToCart, onBuyNow }) {
 
   const saveAmount = product.mrp > product.price ? product.mrp - product.price : 0;
 
+  const isRxRequired = !!product.prescriptionRequired;
+
+  const shortDesc = product.description 
+    ? (product.description.length > 60 ? product.description.substring(0, 57) + '...' : product.description)
+    : (product.shortDescription || `${dosageForm} • Genuine Quality`);
+
   return (
     <div className={`product-card ${isOutOfStock ? 'out-of-stock-card' : ''}`}>
-      {/* Discount Badge */}
-      {discountVal > 0 && !isOutOfStock && (
-        <span className="product-discount-badge">{discountVal}% OFF</span>
-      )}
+      {/* Medicine Image Container */}
+      <div className="product-img-box">
+        {discountVal > 0 && !isOutOfStock && (
+          <span className="product-discount-badge">{discountVal}% OFF</span>
+        )}
 
-      {/* Image Placeholder Box */}
-      <div className="product-img-box" style={{ backgroundColor: imageBg }}>
-        <IconComp size={48} className="product-icon-visual" />
+        <img 
+          src={product.image || '/images/fallback_medicine.svg'} 
+          alt={product.name} 
+          className="product-real-img"
+          style={{ objectFit: 'contain' }}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = '/images/fallback_medicine.svg';
+          }}
+        />
         <span className="dosage-pill">{dosageForm}</span>
       </div>
+
+      {/* Prescription Required Badge Row (Cleanly separated below image area) */}
+      {isRxRequired && (
+        <div className="product-rx-badge-row">
+          <span className="rx-required-tag" title="Prescription required from a licensed doctor">
+            <FileText size={11} /> Prescription Required
+          </span>
+        </div>
+      )}
 
       {/* Product Details */}
       <div className="product-info">
@@ -56,10 +78,15 @@ export default function ProductCard({ product, onAddToCart, onBuyNow }) {
           {product.name}
         </h3>
 
+        {/* Short Description */}
+        <p className="product-short-desc">
+          {shortDesc}
+        </p>
+
         {/* Rating & Stock */}
         <div className="product-meta">
           <div className="product-rating">
-            <Star size={14} className="star-icon" />
+            <Star size={13} className="star-icon" />
             <span className="rating-score">{rating}</span>
             <span className="reviews-count">({reviewsCount})</span>
           </div>
@@ -85,13 +112,17 @@ export default function ProductCard({ product, onAddToCart, onBuyNow }) {
         {/* Action Buttons */}
         <div className="product-actions">
           <button 
-            className="btn-add-cart" 
+            className={`btn-add-cart ${isRxRequired ? 'btn-rx-add' : ''}`}
             onClick={() => onAddToCart(product)}
             disabled={isOutOfStock}
-            title={isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
+            title={isOutOfStock ? 'Out of Stock' : (isRxRequired ? 'Upload Prescription & Add to Cart' : 'Add to Cart')}
           >
-            <ShoppingCart size={16} />
-            <span>{isOutOfStock ? 'Out of Stock' : 'Add to Cart'}</span>
+            {isRxRequired ? <FileText size={14} /> : <ShoppingCart size={15} />}
+            <span>
+              {isOutOfStock 
+                ? 'Out of Stock' 
+                : (isRxRequired ? 'Upload Rx & Add' : 'Add to Cart')}
+            </span>
           </button>
           
           <button 
@@ -100,7 +131,7 @@ export default function ProductCard({ product, onAddToCart, onBuyNow }) {
             disabled={isOutOfStock}
             title={isOutOfStock ? 'Out of Stock' : 'Buy Now'}
           >
-            <Zap size={16} />
+            <Zap size={15} />
             <span>Buy Now</span>
           </button>
         </div>

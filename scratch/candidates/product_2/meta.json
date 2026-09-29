@@ -1,0 +1,41 @@
+{
+  "id": 2,
+  "name": "Amoxicillin 500mg Capsules",
+  "manufacturer": "Sun Pharma",
+  "category": "Medicines",
+  "dosageForm": "Capsule",
+  "packSize": "Strip of 10 Capsules",
+  "brandQuery": "Novamox 500 Sun Pharma Amoxicillin 500mg capsule 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.practostatic.com/practopedia-images/v3/res-750/novamox-500mg-capsule-15-s_0af11dd9-a27f-4327-8cde-69cce0d8facd.JPG",
+      "sizeBytes": 125686
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.png",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/7/530768673/DF/KA/VC/216502075/novamax-500-500x500.png",
+      "sizeBytes": 147800
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/11/465850526/WC/QY/TY/233772675/novamox-500mg-capsule-500x500.jpg",
+      "sizeBytes": 33903
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/12/470051722/FK/LD/PW/71251776/novamox-500-amoxicillin-500-mg-15-capsules-500x500.jpeg",
+      "sizeBytes": 19795
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/10/554947548/FT/FP/OT/27503914/novamox-500-capsule-1000x1000.png",
+      "sizeBytes": 203712
+    }
+  ]
+}

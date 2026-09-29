@@ -1,0 +1,41 @@
+{
+  "id": 28,
+  "name": "Neck & Shoulder Pain Ointment",
+  "manufacturer": "Omnigel Relief",
+  "category": "Pain Relief",
+  "dosageForm": "Ointment",
+  "packSize": "Tube of 30g",
+  "brandQuery": "Omnigel Pain Relief Ointment 30g Cipla 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I26937/omnigel-gel-30-gm-6.3-1658934246.jpg",
+      "sizeBytes": 96468
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/bcd06c4e341f4630b4fc02e15bc57f06.jpg",
+      "sizeBytes": 158719
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/3/591831915/OU/KY/MW/217937612/omni-gel-30-gm-1000x1000.jpeg",
+      "sizeBytes": 183823
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I26937/omnigel-gel-30-gm-3-1658934359.jpg",
+      "sizeBytes": 102445
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/DA/VQ/KZ/SELLER-29824675/omni-gel-30gm-1000x1000.jpg",
+      "sizeBytes": 107312
+    }
+  ]
+}

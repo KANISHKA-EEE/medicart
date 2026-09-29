@@ -1,0 +1,23 @@
+{
+  "id": 67,
+  "name": "Antiseptic Wound Healing Ointment",
+  "manufacturer": "Cipladine Ointment",
+  "category": "First Aid",
+  "dosageForm": "Ointment",
+  "packSize": "Tube of 30g",
+  "brandQuery": "Cipladine Ointment 30g Cipla antiseptic 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.png",
+      "url": "https://cipladine.com/assets/images/product1.png",
+      "sizeBytes": 167168
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "http://cipladine.com/assets/images/banner2.jpg",
+      "sizeBytes": 254326
+    }
+  ]
+}

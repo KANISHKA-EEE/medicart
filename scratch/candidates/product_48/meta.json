@@ -1,0 +1,35 @@
+{
+  "id": 48,
+  "name": "Insulin Pen Needles 4mm (100s)",
+  "manufacturer": "BD Micro-Fine",
+  "category": "Diabetes Care",
+  "dosageForm": "Medical Needles",
+  "packSize": "Box of 100 Needles",
+  "brandQuery": "BD Micro-Fine Ultra Pen Needles 4mm 100s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.chemistconnect.com/images/bd-micro-fine-ultra-4mm-32-gauge-pen-needles-100-needles-p5438-5096_image.jpg",
+      "sizeBytes": 50669
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://down-my.img.susercontent.com/file/db1b9dccf501733fdbe359cac1f8d67e",
+      "sizeBytes": 291267
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://www.pharmamarket.eu/media/catalog/product/cache/fb259b224f39aa73755d4e50e3f5f637/f/9/f910f90ff5f7be7f45406a5c77d7b71661537dba_en_US.png",
+      "sizeBytes": 186494
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.chemistconnect.com/images/bd-micro-fine-ultra-4mm-32-gauge-pen-needles-100-needles-p5438-5096_medium.jpg",
+      "sizeBytes": 38618
+    }
+  ]
+}

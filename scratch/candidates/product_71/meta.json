@@ -1,0 +1,41 @@
+{
+  "id": 71,
+  "name": "Gentle Tear-Free Baby Shampoo 200ml",
+  "manufacturer": "Johnson's Baby",
+  "category": "Baby Care",
+  "dosageForm": "Baby Shampoo",
+  "packSize": "Bottle of 200ml",
+  "brandQuery": "Johnson's Baby Shampoo 200ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://media-v4.edamama.ph/products/Images Template - 2024-07-29T154101.717.jpg_1722238893656.jpeg",
+      "sizeBytes": 50658
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://image.plumint.com/media/catalogue_image/bcfc38ef-978c-4b78-8771-257b7b0a92f7_cs_wm_KoA5sWz.jpeg",
+      "sizeBytes": 115628
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://beta1.cruzverde.com.co/on/demandware.static/-/Sites-masterCatalog_Colombia/default/dw8d256e2c/images/large/161467_1_SHAMPOO_BABY_JOHNSONS_FCO_X_200ML_ORIGINAL.jpg",
+      "sizeBytes": 108398
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.webp",
+      "url": "https://internetaptieka.lv/images/900c54a5-93ea-43de-8fda-7616640598f9_1048b3ba099c9dc3a9013e2ef1a5ddda6293aed57741457d583d141359f97191.webp",
+      "sizeBytes": 33120
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://down-my.img.susercontent.com/file/my-11134207-7r992-lxc28jrkjkvk80",
+      "sizeBytes": 396033
+    }
+  ]
+}

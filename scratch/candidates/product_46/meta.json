@@ -1,0 +1,41 @@
+{
+  "id": 46,
+  "name": "Diabetes Foot Care Cream 100g",
+  "manufacturer": "Footcare Pharma",
+  "category": "Diabetes Care",
+  "dosageForm": "Cream",
+  "packSize": "Tube of 100g",
+  "brandQuery": "Footcare Pharma Diabetes foot care cream 100g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "http://www.drfootin.com/cdn/shop/files/1746614506042_1.jpg?v=1752219669",
+      "sizeBytes": 165697
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/O65929/dr-foot-diabetic-neuropathy-foot-cream-l-arginine-dimethicone-improves-blood-circulation-100gm-6.2-1641793129.jpg",
+      "sizeBytes": 101273
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://harryjean.com/wp-content/uploads/2025/11/diabetic-foot-care-cream-for-dry-itchy-cracked-feet-1.jpg",
+      "sizeBytes": 40885
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q66025/fixderma-heel-repair-foobetik-foot-cream-for-normal-diabetic-foot-100g-6.1-1717769501.jpg",
+      "sizeBytes": 54529
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "http://www.saveritemedical.com/cdn/shop/products/borage-diabetic-foot-cream-42-oz-tube-diabetes-salk-company-679777_1024x.jpg?v=1631419716",
+      "sizeBytes": 59998
+    }
+  ]
+}

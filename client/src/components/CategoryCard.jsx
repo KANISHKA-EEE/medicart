@@ -6,6 +6,8 @@ import {
   Thermometer, 
   Activity, 
   Heart,
+  Cross,
+  Baby,
   ArrowRight
 } from 'lucide-react';
 
@@ -15,7 +17,9 @@ const iconMap = {
   Zap: Zap,
   Thermometer: Thermometer,
   Activity: Activity,
-  Heart: Heart
+  Heart: Heart,
+  Cross: Cross,
+  Baby: Baby
 };
 
 export default function CategoryCard({ category, onSelectCategory }) {
@@ -25,11 +29,10 @@ export default function CategoryCard({ category, onSelectCategory }) {
     <div 
       className="category-card" 
       onClick={() => onSelectCategory(category.name)}
-      style={{ '--cat-accent': category.color }}
     >
       <div className="cat-card-header">
-        <div className="cat-icon-wrapper" style={{ backgroundColor: `${category.color}15`, color: category.color }}>
-          <IconComponent size={28} />
+        <div className="cat-icon-wrapper">
+          <IconComponent size={24} />
         </div>
         <span className="cat-badge">{category.badge}</span>
       </div>
@@ -39,7 +42,7 @@ export default function CategoryCard({ category, onSelectCategory }) {
 
       <div className="cat-footer">
         <span className="cat-action">Browse Products</span>
-        <ArrowRight size={16} className="cat-arrow" />
+        <ArrowRight size={15} className="cat-arrow" />
       </div>
     </div>
   );

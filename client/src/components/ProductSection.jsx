@@ -36,24 +36,24 @@ export default function ProductSection({
             >
               All
             </button>
-            <button 
-              className={`filter-pill ${activeCategory === 'Pain Relief' ? 'active' : ''}`}
-              onClick={() => setActiveCategory('Pain Relief')}
-            >
-              Pain Relief
-            </button>
-            <button 
-              className={`filter-pill ${activeCategory === 'Vitamins' ? 'active' : ''}`}
-              onClick={() => setActiveCategory('Vitamins')}
-            >
-              Vitamins
-            </button>
-            <button 
-              className={`filter-pill ${activeCategory === 'Personal Care' ? 'active' : ''}`}
-              onClick={() => setActiveCategory('Personal Care')}
-            >
-              Personal Care
-            </button>
+            {[
+              'Medicines',
+              'Vitamins & Supplements',
+              'Pain Relief',
+              'Cold & Flu',
+              'Diabetes Care',
+              'Personal Care',
+              'First Aid',
+              'Baby Care'
+            ].map((catName) => (
+              <button 
+                key={catName}
+                className={`filter-pill ${activeCategory === catName ? 'active' : ''}`}
+                onClick={() => setActiveCategory(catName)}
+              >
+                {catName}
+              </button>
+            ))}
           </div>
         </div>
 

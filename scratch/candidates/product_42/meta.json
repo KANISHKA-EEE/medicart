@@ -1,0 +1,41 @@
+{
+  "id": 42,
+  "name": "Blood Glucose Test Strips (50s)",
+  "manufacturer": "OneTouch Select",
+  "category": "Diabetes Care",
+  "dosageForm": "Test Strips",
+  "packSize": "Box of 50 Strips",
+  "brandQuery": "OneTouch Select Plus Test Strips 50s 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/N37764/onetouch-select-plus-test-stripsfor-use-with-onetouch-select-plus-simple-glucometerpack-of-50-2-1689586535.jpg",
+      "sizeBytes": 112959
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/N37764/one-touch-select-plus-glucometer-test-strips-box-of-50-6.1-1643959771.jpg",
+      "sizeBytes": 122690
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/N37764/one-touch-select-plus-glucometer-test-strips-box-of-50-6.2-1643959767.jpg",
+      "sizeBytes": 73106
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/Z16990/onetouch-select-plus-test-strips-50s-pack-2-25s-onetouch-delica-plus-lancets-value-pack-6.1-1644583741.jpg",
+      "sizeBytes": 58265
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://down-ph.img.susercontent.com/file/ph-11134207-7r98r-lxk3dc1wmtlted",
+      "sizeBytes": 185449
+    }
+  ]
+}

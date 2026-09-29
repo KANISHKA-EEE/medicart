@@ -1,0 +1,41 @@
+{
+  "id": 26,
+  "name": "Ibuprofen 400mg Tablets",
+  "manufacturer": "Abbott India",
+  "category": "Pain Relief",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 15 Tablets",
+  "brandQuery": "Brufen 400 Abbott Ibuprofen 400mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.png",
+      "url": "http://egyptiandrugstore.com/image/cache/data/manar13/brufen 400-500x500.png",
+      "sizeBytes": 180060
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/029725/brufen-400mg-tablet-1-1641535537.jpg",
+      "sizeBytes": 40321
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/4/410124950/ME/TB/GV/217973344/brufen-400-tablets-ibuprofen-400mg-1000x1000.jpg",
+      "sizeBytes": 36645
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/K93926/brufen-400mg-strip-of-20-tablets-2-1741861731.jpg",
+      "sizeBytes": 136207
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://mypharmacies.ae/wp-content/uploads/2024/05/1001968_1.jpg",
+      "sizeBytes": 52781
+    }
+  ]
+}

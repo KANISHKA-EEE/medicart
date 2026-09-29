@@ -1,0 +1,41 @@
+{
+  "id": 22,
+  "name": "Herbal Muscle Pain Balm 45g",
+  "manufacturer": "Zandu Herbals",
+  "category": "Pain Relief",
+  "dosageForm": "Balm",
+  "packSize": "Jar of 45g",
+  "brandQuery": "Zandu Balm 45g jar pain relief 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2021/11/VW/BH/GN/3849368/zandubalm1-1000x1000.jpg",
+      "sizeBytes": 44710
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/F31145/zandu-pain-relief-balm-bottle-of-50-ml-6.5-1693478021.jpg",
+      "sizeBytes": 96441
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn.grofers.com/da/cms-assets/cms/product/d896644a-3793-4f42-b6f2-09d930cf6242.jpg",
+      "sizeBytes": 42345
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/F31145/zandu-pain-relief-balm-bottle-of-50-ml-6.1-1693477979.jpg",
+      "sizeBytes": 75528
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/186685/zandu-pain-relief-balm-bottle-of-25-ml-6.4-1693478142.jpg",
+      "sizeBytes": 92135
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 12,
+  "name": "Vitamin C 500mg Chewable",
+  "manufacturer": "Limcee Wellness",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Chewable Tablet",
+  "packSize": "Bottle of 60 Tablets",
+  "brandQuery": "Limcee Vitamin C 500mg chewable tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.rxindia.com/images/detailed/2/Limcee_4.jpg",
+      "sizeBytes": 144344
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.bbassets.com/media/uploads/p/l/40323622_1-limcee-vitamin-c-chewable-tablet-500-mg-orange-flavour.jpg",
+      "sizeBytes": 99361
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I08644/limcee-500mg-orange-flavour-chewable-tablets-15s-2-1641537330.jpg",
+      "sizeBytes": 127222
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.png",
+      "url": "https://assets.truemeds.in/Images/ProductImage/TM-TACR1-021892/limcee-orange-flavour-chewable-tablet-15_limcee-orange-flavour-chewable-tablet-15--TM-TACR1-021892_1.png",
+      "sizeBytes": 2271598
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I08644/limcee-500mg-orange-flavour-chewable-tablets-15s-front-2-1602504303.jpg",
+      "sizeBytes": 132778
+    }
+  ]
+}

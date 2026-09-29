@@ -1,0 +1,35 @@
+{
+  "id": 31,
+  "name": "Herbal Cough Syrup 100ml",
+  "manufacturer": "Dabur India",
+  "category": "Cold & Flu",
+  "dosageForm": "Syrup",
+  "packSize": "Bottle of 100ml",
+  "brandQuery": "Dabur Honitus Herbal Cough Syrup 100ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.meenakshiherbals.com/wpcore/wp-content/uploads/2024/10/HONITUS-COUGH-SYRUP-100ML-DABUR-1024x1018.jpg",
+      "sizeBytes": 154415
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I05449/dabur-honitus-cough-syrup-bottle-of-100-ml-2-1669634882.jpg",
+      "sizeBytes": 44682
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I05449/dabur-honitus-cough-syrup-bottle-of-100-ml-3-1669634892.jpg",
+      "sizeBytes": 85230
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://newassets.apollo247.com/pub/media/catalog/product/i/3/i30458_5.jpg",
+      "sizeBytes": 190284
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 import { API_BASE_URL } from '../config/api';
+import PrescriptionUploadModal from './PrescriptionUploadModal';
 import { 
   Pill, 
   ShoppingBag, 
@@ -17,12 +18,14 @@ import {
   ArrowLeft, 
   ShieldCheck, 
   Check,
-  PackageCheck
+  FileText,
+  FileCheck,
+  UploadCloud
 } from 'lucide-react';
 
 export default function Checkout({ onShowToast }) {
   const { user, token, isAuthenticated } = useAuth();
-  const { cartItems, cartCount, cartSubtotal, totalSavings, clearCart } = useCart();
+  const { cartItems, cartCount, cartSubtotal, totalSavings, clearCart, hasPrescriptionItem, prescriptionFile, setPrescriptionFile } = useCart();
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -39,6 +42,7 @@ export default function Checkout({ onShowToast }) {
 
   const [error, setError] = useState('');
   const [isPlacingOrder, setIsPlacingOrder] = useState(false);
+  const [isRxModalOpen, setIsRxModalOpen] = useState(false);
 
   // Auto pre-fill user name & email when user is available
   useEffect(() => {
@@ -96,21 +100,28 @@ export default function Checkout({ onShowToast }) {
       return;
     }
 
-    // 2. Email format validation
+    // 2. Prescription check for Rx items
+    if (hasPrescriptionItem && (!prescriptionFile || !prescriptionFile.filename)) {
+      setError('A valid prescription upload is required for prescription medicines in your cart. Please upload a prescription to continue.');
+      setIsRxModalOpen(true);
+      return;
+    }
+
+    // 3. Email format validation
     const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/;
     if (!emailRegex.test(trimmedEmail)) {
       setError('Please enter a valid email address.');
       return;
     }
 
-    // 3. Indian 10-digit mobile number validation
+    // 4. Indian 10-digit mobile number validation
     const phoneRegex = /^[6-9]\d{9}$/;
     if (!phoneRegex.test(trimmedPhone)) {
       setError('Please enter a valid 10-digit Indian mobile number (e.g. 9876543210).');
       return;
     }
 
-    // 4. Indian 6-digit pincode validation
+    // 5. Indian 6-digit pincode validation
     const pincodeRegex = /^\d{6}$/;
     if (!pincodeRegex.test(trimmedPincode)) {
       setError('Please enter a valid 6-digit Indian postal pincode (e.g. 110001).');
@@ -120,7 +131,7 @@ export default function Checkout({ onShowToast }) {
     setIsPlacingOrder(true);
 
     try {
-      // Build order items array with medicine ID and quantity (ignoring frontend prices)
+      // Build order items array
       const formattedItems = cartItems.map((item) => ({
         medicine: item._id || item.id,
         quantity: item.quantity
@@ -137,7 +148,8 @@ export default function Checkout({ onShowToast }) {
           city: trimmedCity,
           state: trimmedState,
           pincode: trimmedPincode
-        }
+        },
+        prescriptionFile: hasPrescriptionItem ? prescriptionFile : null
       };
 
       const response = await fetch(`${API_BASE_URL}/api/orders`, {
@@ -157,7 +169,7 @@ export default function Checkout({ onShowToast }) {
 
       const createdOrder = data.data.order;
 
-      // Clear cart ONLY AFTER successful order creation in backend
+      // Clear cart AFTER successful order creation in backend
       clearCart();
 
       if (onShowToast) {
@@ -209,6 +221,64 @@ export default function Checkout({ onShowToast }) {
             <AlertCircle size={20} className="auth-error-icon" />
             <span>{error}</span>
           </div>
+        )}
+
+        {/* Prescription Required Card Banner */}
+        {hasPrescriptionItem && (
+          <section className="checkout-rx-card" style={{ marginBottom: '2rem' }}>
+            <div className="card-section-title">
+              <FileText size={20} className="section-title-icon" />
+              <h2>Prescription Verification Required</h2>
+            </div>
+
+            {prescriptionFile ? (
+              <div className="rx-checkout-status-box success">
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+                  <FileCheck size={28} color="#16a34a" />
+                  <div>
+                    <h4 style={{ margin: 0, fontSize: '1rem', fontWeight: 700, color: '#1f2937' }}>
+                      Prescription: {prescriptionFile.originalName || prescriptionFile.filename}
+                    </h4>
+                    <span style={{ fontSize: '0.82rem', color: '#64748b' }}>
+                      Technical Validation Passed • Status: <span className="status-pill status-processing">Pending Verification</span>
+                    </span>
+                  </div>
+                </div>
+
+                <button 
+                  type="button" 
+                  className="btn-secondary" 
+                  onClick={() => setIsRxModalOpen(true)}
+                  style={{ fontSize: '0.82rem', padding: '0.45rem 0.9rem' }}
+                >
+                  Change / Re-upload
+                </button>
+              </div>
+            ) : (
+              <div className="rx-checkout-status-box warning">
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+                  <AlertCircle size={28} color="#dc2626" />
+                  <div>
+                    <h4 style={{ margin: 0, fontSize: '1rem', fontWeight: 700, color: '#b91c1c' }}>
+                      Please upload a prescription to continue.
+                    </h4>
+                    <span style={{ fontSize: '0.82rem', color: '#475569' }}>
+                      One or more medicines in your cart require a valid prescription before placing the order.
+                    </span>
+                  </div>
+                </div>
+
+                <button 
+                  type="button" 
+                  className="btn-primary" 
+                  onClick={() => setIsRxModalOpen(true)}
+                  style={{ fontSize: '0.88rem', padding: '0.55rem 1.2rem' }}
+                >
+                  <UploadCloud size={16} /> Upload Prescription
+                </button>
+              </div>
+            )}
+          </section>
         )}
 
         <div className="checkout-grid">
@@ -338,7 +408,12 @@ export default function Checkout({ onShowToast }) {
                 </div>
               </div>
 
-              <button type="submit" className="btn-primary place-order-btn" disabled={isPlacingOrder}>
+              <button 
+                type="submit" 
+                className="btn-primary place-order-btn" 
+                disabled={isPlacingOrder || (hasPrescriptionItem && (!prescriptionFile || !prescriptionFile.filename))}
+                title={hasPrescriptionItem && !prescriptionFile ? 'Please upload prescription before placing order' : 'Place Order'}
+              >
                 {isPlacingOrder ? (
                   <span>Placing Order...</span>
                 ) : (
@@ -370,6 +445,11 @@ export default function Checkout({ onShowToast }) {
                       <span className="summary-item-name">{item.name}</span>
                       <span className="summary-item-qty">
                         ₹{item.price} × {item.quantity}
+                        {item.prescriptionRequired && (
+                          <span style={{ color: '#087ea4', fontSize: '0.72rem', display: 'block', fontWeight: 700 }}>
+                            • Rx Required
+                          </span>
+                        )}
                       </span>
                     </div>
                     <span className="summary-item-total">₹{itemTotal}</span>
@@ -412,6 +492,17 @@ export default function Checkout({ onShowToast }) {
           </aside>
         </div>
       </main>
+
+      {/* Prescription Upload Modal */}
+      <PrescriptionUploadModal
+        isOpen={isRxModalOpen}
+        onClose={() => setIsRxModalOpen(false)}
+        onUploadSuccess={(fileData) => {
+          setPrescriptionFile(fileData);
+          if (onShowToast) onShowToast('Prescription attached! Ready to place order.');
+        }}
+        onShowToast={onShowToast}
+      />
     </div>
   );
 }

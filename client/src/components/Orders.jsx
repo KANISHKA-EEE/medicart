@@ -11,7 +11,9 @@ import {
   ArrowLeft, 
   AlertCircle, 
   CheckCircle2, 
-  ShoppingBag 
+  ShoppingBag,
+  FileText,
+  XCircle
 } from 'lucide-react';
 
 export default function Orders() {
@@ -89,7 +91,7 @@ export default function Orders() {
         <div className="orders-title-row">
           <div>
             <h1>My Order History</h1>
-            <p>View and track your medicine purchases</p>
+            <p>View and track your medicine purchases & prescription status</p>
           </div>
           <span className="checkout-item-badge">{orders.length} total orders</span>
         </div>
@@ -128,6 +130,8 @@ export default function Orders() {
                 minute: '2-digit'
               });
 
+              const rxStatus = order.prescriptionStatus || (order.prescriptionRequired ? 'Pending Review' : 'Not Required');
+
               return (
                 <div key={order._id} className="order-history-card">
                   <div className="order-card-header">
@@ -137,7 +141,14 @@ export default function Orders() {
                         <Calendar size={14} /> {formattedDate}
                       </span>
                     </div>
+
                     <div className="order-status-badges">
+                      {order.prescriptionRequired && (
+                        <span className={`status-pill rx-pill-${rxStatus.toLowerCase().replace(/\s+/g, '-')}`}>
+                          <FileText size={11} /> Rx: {rxStatus === 'Pending Review' ? 'Pending Verification' : rxStatus}
+                        </span>
+                      )}
+
                       <span className={`status-pill status-${(order.status || 'Placed').toLowerCase()}`}>
                         {order.status || 'Placed'}
                       </span>
@@ -148,12 +159,26 @@ export default function Orders() {
                     <div className="order-items-preview">
                       {order.items.map((item, idx) => (
                         <div key={idx} className="order-preview-row">
-                          <span className="preview-medicine-name">{item.name}</span>
+                          <span className="preview-medicine-name">
+                            {item.name}
+                            {item.prescriptionRequired && (
+                              <span style={{ fontSize: '0.72rem', color: '#087ea4', marginLeft: '0.4rem', fontWeight: 700 }}>
+                                (Rx)
+                              </span>
+                            )}
+                          </span>
                           <span className="preview-medicine-qty">Qty: {item.quantity}</span>
                           <span className="preview-medicine-price">₹{item.itemTotal}</span>
                         </div>
                       ))}
                     </div>
+
+                    {order.prescriptionStatus === 'Rejected' && order.prescriptionRejectionReason && (
+                      <div className="rx-rejection-reason-box" style={{ marginTop: '0.85rem' }}>
+                        <XCircle size={15} color="#dc2626" />
+                        <span><strong>Prescription Rejected:</strong> {order.prescriptionRejectionReason}</span>
+                      </div>
+                    )}
                   </div>
 
                   <div className="order-card-footer">

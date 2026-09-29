@@ -1,0 +1,41 @@
+{
+  "id": 80,
+  "name": "Baby Oral Teething Gel 15g",
+  "manufacturer": "Bonjela Teething",
+  "category": "Baby Care",
+  "dosageForm": "Gel",
+  "packSize": "Tube of 15g",
+  "brandQuery": "Bonjela Teething Gel 15g tube 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "http://amamedicalproducts.com.au/cdn/shop/files/RBHE-93262170-0.png?v=1747364924",
+      "sizeBytes": 944883
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.aozhoumama.com.au/images/Bonjela Teething Gel 15g.jpg",
+      "sizeBytes": 102263
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.first4health.com/cdn/shop/files/BonjelaTeethingGel_1200x2187.jpg?v=1737802554",
+      "sizeBytes": 118580
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.medibc.com/media/catalog/product/9/9/99403-bonjela-teething-gel-15g-1_result.jpg",
+      "sizeBytes": 165561
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://www.irys.co.uk/hpeciai/8ffcb465f06cb814820c55293fd383bd/eng_pl_BONJELA-TEETHING-GEL-15G-2132_1.jpg",
+      "sizeBytes": 61868
+    }
+  ]
+}

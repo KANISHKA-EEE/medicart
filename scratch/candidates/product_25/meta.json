@@ -1,0 +1,41 @@
+{
+  "id": 25,
+  "name": "Diclofenac Pain Spray 55g",
+  "manufacturer": "Moov Express",
+  "category": "Pain Relief",
+  "dosageForm": "Aerosol Spray",
+  "packSize": "Can of 55g",
+  "brandQuery": "Moov Express Pain Relief Spray 55g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.png",
+      "url": "https://herbalshifa.co.uk/wp-content/uploads/2025/07/Moov-Pain-Relief-Spray.png",
+      "sizeBytes": 1140057
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I08068/moov-pain-relief-spray-bottle-of-50-g-6.4-1610440320.jpg",
+      "sizeBytes": 93315
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I08068/moov-pain-relief-spray-bottle-of-50-g-2-1628688814.jpg",
+      "sizeBytes": 29563
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/L89601/moov-strong-diclofenac-pain-relief-spray-55g-2-1610445178.jpg",
+      "sizeBytes": 33256
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/I08068/moov-instant-pain-relief-spray-50g-suitable-for-back-pain-joint-pain-knee-pain-muscle-pain-6.6-1681901757.jpg",
+      "sizeBytes": 146849
+    }
+  ]
+}

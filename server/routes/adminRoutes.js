@@ -184,4 +184,112 @@ router.put('/orders/:id/status', async (req, res) => {
   }
 });
 
+// @route   PUT /api/admin/orders/:id/prescription-review
+// @desc    Approve or Reject prescription for an order
+// @access  Private (Admin Only)
+router.put('/orders/:id/prescription-review', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { action, reason } = req.body;
+
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid order ID format'
+      });
+    }
+
+    if (!action || !['approve', 'reject'].includes(action)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid action. Allowed values: 'approve' or 'reject'"
+      });
+    }
+
+    const order = await Order.findById(id);
+
+    if (!order) {
+      return res.status(404).json({
+        success: false,
+        message: 'Order not found'
+      });
+    }
+
+    if (!order.prescriptionRequired) {
+      return res.status(400).json({
+        success: false,
+        message: 'This order does not require a prescription.'
+      });
+    }
+
+    if (action === 'approve') {
+      order.prescriptionStatus = 'Approved';
+      order.prescriptionReviewedAt = new Date();
+      order.prescriptionReviewedBy = req.user.userId;
+      order.prescriptionRejectionReason = '';
+    } else if (action === 'reject') {
+      order.prescriptionStatus = 'Rejected';
+      order.prescriptionReviewedAt = new Date();
+      order.prescriptionReviewedBy = req.user.userId;
+      order.prescriptionRejectionReason = reason ? reason.trim() : 'Prescription is unclear. Please upload a clearer copy.';
+    }
+
+    await order.save();
+
+    const updatedOrder = await Order.findById(id).populate('user', 'name email');
+
+    return res.status(200).json({
+      success: true,
+      message: `Prescription has been ${action === 'approve' ? 'Approved' : 'Rejected'} successfully.`,
+      data: updatedOrder
+    });
+
+  } catch (error) {
+    console.error('Admin Prescription Review Error:', error.message);
+    return res.status(500).json({
+      success: false,
+      message: 'Server error processing prescription review'
+    });
+  }
+});
+
+// @route   POST /api/admin/orders/:id/re-run-ocr
+// @desc    Re-run OCR text extraction on the uploaded prescription file
+// @access  Private (Admin Only)
+router.post('/orders/:id/re-run-ocr', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const order = await Order.findById(id);
+
+    if (!order) {
+      return res.status(404).json({ success: false, message: 'Order not found' });
+    }
+
+    if (!order.prescriptionRequired || !order.prescriptionFile || !order.prescriptionFile.filename) {
+      return res.status(400).json({ success: false, message: 'No uploaded prescription found for this order' });
+    }
+
+    const path = require('path');
+    const uploadDir = path.join(__dirname, '../uploads/prescriptions');
+    const filePath = path.join(uploadDir, path.basename(order.prescriptionFile.filename));
+
+    const { processPrescriptionOcr } = require('../utils/ocrExtractor');
+    const ocrData = await processPrescriptionOcr(filePath, order.prescriptionFile.mimetype || '');
+
+    order.prescriptionOcr = ocrData;
+    await order.save();
+
+    const updatedOrder = await Order.findById(id).populate('user', 'name email');
+
+    return res.status(200).json({
+      success: true,
+      message: 'OCR re-run completed successfully.',
+      data: updatedOrder
+    });
+  } catch (error) {
+    console.error('Re-run OCR Error:', error.message);
+    return res.status(500).json({ success: false, message: 'Server error during OCR re-run' });
+  }
+});
+
 module.exports = router;

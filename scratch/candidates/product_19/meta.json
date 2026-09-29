@@ -1,0 +1,29 @@
+{
+  "id": 19,
+  "name": "Magnesium Glycinate 400mg",
+  "manufacturer": "Carbamide Forte",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Tablet",
+  "packSize": "Bottle of 60 Tablets",
+  "brandQuery": "Carbamide Forte Magnesium Glycinate 400mg 60 tablets 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/V46980/carbamide-forte-chelated-magnesium-glycinate-2408mg-supplement-better-sleep-60-tablets-6.3-1671743266.jpg",
+      "sizeBytes": 112385
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://www.bodybuildingindia.com/cdn/shop/files/Carbamide-Forte-Chelated-Magnesium-Glycinate-_-60-Veg-Tablets-Body-Building-India-117242977.jpg?v=1742989448",
+      "sizeBytes": 176489
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/V46980/carbamide-forte-chelated-magnesium-glycinate-2408mg-supplement-better-sleep-60-tablets-6.1-1644845274.jpg",
+      "sizeBytes": 91401
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5,
+  "name": "Azithromycin 500mg Tablets",
+  "manufacturer": "Zydus Healthcare",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 5 Tablets",
+  "brandQuery": "Azithral 500 Zydus Azithromycin 500mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/310659/azithral-500mg-tab-5-s-back-7-1597366019.jpg",
+      "sizeBytes": 76418
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/12/470253249/YG/PX/KX/30685789/azithral-500-mg-1000x1000.jpeg",
+      "sizeBytes": 134474
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2023/12/371416687/DB/QV/YY/83177447/azithral-500mg-1-1000x1000.png",
+      "sizeBytes": 931505
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://www.practostatic.com/practopedia-images/v3/res-750/azithral-500mg-tablet-5-s_f6ba2cec-3738-4978-9a6c-751392ff2141.JPG",
+      "sizeBytes": 120914
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/10/TQ/TJ/AJ/101315720/azithral-500mg-tablet-1000x1000.png",
+      "sizeBytes": 566205
+    }
+  ]
+}

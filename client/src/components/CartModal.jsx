@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
-import { X, ShoppingBag, Trash2, ArrowRight, ShieldCheck, Plus, Minus, RotateCcw } from 'lucide-react';
+import { X, ShoppingBag, Trash2, ArrowRight, ShieldCheck, Plus, Minus, FileText, CheckCircle2, UploadCloud } from 'lucide-react';
 
-export default function CartModal({ isOpen, onClose, onShowToast }) {
+export default function CartModal({ isOpen, onClose, onOpenRxModal, onShowToast }) {
   const {
     cartItems,
     removeFromCart,
@@ -12,7 +12,9 @@ export default function CartModal({ isOpen, onClose, onShowToast }) {
     clearCart,
     cartCount,
     cartSubtotal,
-    totalSavings
+    totalSavings,
+    hasPrescriptionItem,
+    prescriptionFile
   } = useCart();
 
   const navigate = useNavigate();
@@ -51,6 +53,33 @@ export default function CartModal({ isOpen, onClose, onShowToast }) {
 
         {/* Content */}
         <div className="cart-drawer-body">
+          {/* Prescription Banner in Cart if Rx items present */}
+          {hasPrescriptionItem && (
+            <div className="cart-rx-notice-banner" style={{ marginBottom: '1.25rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                <FileText size={20} color="#087ea4" style={{ flexShrink: 0 }} />
+                <div>
+                  <strong style={{ fontSize: '0.88rem', color: '#1f2937' }}>Prescription Required</strong>
+                  <p style={{ margin: 0, fontSize: '0.78rem', color: '#64748b' }}>
+                    {prescriptionFile
+                      ? `✓ ${prescriptionFile.originalName || prescriptionFile.filename} (Pending Verification)`
+                      : 'Cart contains prescription medicines.'}
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                className="btn-upload-rx-cart"
+                onClick={() => {
+                  onClose();
+                  if (onOpenRxModal) onOpenRxModal();
+                }}
+              >
+                {prescriptionFile ? 'View / Change' : 'Upload'}
+              </button>
+            </div>
+          )}
+
           {cartItems.length === 0 ? (
             <div className="empty-cart-view">
               <ShoppingBag size={64} className="empty-cart-icon" />
@@ -74,7 +103,14 @@ export default function CartModal({ isOpen, onClose, onShowToast }) {
                     </div>
 
                     <div className="cart-item-details">
-                      <h4>{item.name}</h4>
+                      <h4>
+                        {item.name}
+                        {item.prescriptionRequired && (
+                          <span className="rx-item-tag" style={{ marginLeft: '0.4rem' }}>
+                            Rx
+                          </span>
+                        )}
+                      </h4>
                       <span className="cart-item-cat">{item.dosageForm || item.category}</span>
                       
                       <div className="cart-item-price-row">

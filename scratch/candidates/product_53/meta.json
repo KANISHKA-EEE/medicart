@@ -1,0 +1,41 @@
+{
+  "id": 53,
+  "name": "Antibacterial Hand Wash 500ml",
+  "manufacturer": "Dettol Hygiene",
+  "category": "Personal Care",
+  "dosageForm": "Liquid Soap",
+  "packSize": "Pump Bottle 500ml",
+  "brandQuery": "Dettol Liquid Handwash Pump 500ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://mediconsulpharmacy.com.au/wp-content/uploads/2023/10/1200Wx1200H-baseFormat-9300631442721-front.jpeg",
+      "sizeBytes": 2028959
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDE2MDM5MnxpbWFnZS9qcGVnfGgzYS9oNWQvMTA4NTc3MzU2NTEzNTh8YjBmNDk0MTk5ODIwOWU0ZGFmZjUxODI2MTdhZDVhYzU0NzVlNTY5MTY2ODcxNzcwZWI3MWFjOGY3OWFjMGEzYQ",
+      "sizeBytes": 160392
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://static.chemistwarehouse.com.au/ams/media/pi/123621/ADD4_800.jpg",
+      "sizeBytes": 48967
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2023/12/369592496/QO/LV/IF/103295850/51wu9rx6hfl-500x500.jpg",
+      "sizeBytes": 18021
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://static.chemistwarehouse.com.au/ams/media/pi/123622/2DF_800.jpg",
+      "sizeBytes": 28914
+    }
+  ]
+}

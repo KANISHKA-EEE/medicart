@@ -1,0 +1,41 @@
+{
+  "id": 35,
+  "name": "Sore Throat Gargle Solution",
+  "manufacturer": "Betadine Care",
+  "category": "Cold & Flu",
+  "dosageForm": "Gargle Liquid",
+  "packSize": "Bottle of 100ml",
+  "brandQuery": "Betadine 2% Mint Gargle 100ml Win Medicare 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://www.bbassets.com/media/uploads/p/l/40334269_1-betadine-germicide-gargle-2-mint.jpg",
+      "sizeBytes": 50274
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://assets.truemeds.in/Images/ProductImage/TM-GALE1-000002/betadine-mint-flavour-gargle-100ml_betadine-mint-flavour-gargle-100ml--TM-GALE1-000002_4.png?width=320",
+      "sizeBytes": 137539
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://srisoumyamedicals.in/wp-content/uploads/2025/03/BETADINE-GARGLE-100ML-1.png",
+      "sizeBytes": 169850
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://assets.truemeds.in/Images/ProductImage/TM-GALE1-000003/betadine-mint-gargle-50ml_betadine-mint-gargle-50ml--TM-GALE1-000003_1.png?width=320",
+      "sizeBytes": 134151
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/5/508455756/PD/XX/OK/47934209/betadine-gargle-100ml-500x500.jpeg",
+      "sizeBytes": 43453
+    }
+  ]
+}

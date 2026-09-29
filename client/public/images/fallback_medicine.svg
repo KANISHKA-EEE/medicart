@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" width="100%" height="100%">
+  <rect width="400" height="380" fill="#F8FAFC" rx="12"/>
+  <rect x="100" y="60" width="200" height="260" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+  <path d="M100 76 Q100 60 116 60 L284 60 Q300 60 300 76 L300 120 L100 120 Z" fill="#087EA4"/>
+  <text x="200" y="98" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#FFFFFF" text-anchor="middle">KANISHKA PHARMACY</text>
+  <circle cx="200" cy="200" r="35" fill="#E0F2FE"/>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-weight="bold" font-size="30" fill="#087EA4" text-anchor="middle">💊</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#1F2937" text-anchor="middle">Genuine Medicine</text>
+  <text x="200" y="295" font-family="Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Verified Quality Guarantee</text>
+</svg>

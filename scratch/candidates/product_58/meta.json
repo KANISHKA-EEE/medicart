@@ -1,0 +1,41 @@
+{
+  "id": 58,
+  "name": "Hydrating Lip Balm 10g Tube",
+  "manufacturer": "Sebamed Lip",
+  "category": "Personal Care",
+  "dosageForm": "Lip Care Balm",
+  "packSize": "Tube of 10g",
+  "brandQuery": "Sebamed Lip Defense Lip Balm 10g tube 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn.shopaccino.com/cutiskart/products/76-434610_m.jpg?v=390",
+      "sizeBytes": 84289
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.farmaku.com/artikel/wp-content/uploads/2022/01/apotek_online_farmaku.com_sebamed_lip_deffense_original_spf30_4.8_g_new_packshoot.jpg",
+      "sizeBytes": 65654
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://sarinskin.com/cdn/shop/files/1_711.png?v=1692868665",
+      "sizeBytes": 869092
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://down-my.img.susercontent.com/file/sg-11134201-7ra1h-mbgcbk7s2oiv20",
+      "sizeBytes": 105589
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://image.makewebcdn.com/makeweb/m_1200x600/gDR8pXuUX/DefaultData/SEBAMED_LIP_DEFENCE_SPF30.png",
+      "sizeBytes": 263601
+    }
+  ]
+}

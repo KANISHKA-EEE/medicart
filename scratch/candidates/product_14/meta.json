@@ -1,0 +1,41 @@
+{
+  "id": 14,
+  "name": "Calcium + Vitamin D3 Tablets",
+  "manufacturer": "Shelcal Care",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Tablet",
+  "packSize": "Bottle of 60 Tablets",
+  "brandQuery": "Shelcal 500 Sun Pharma Calcium Vitamin D3 tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://m.media-amazon.com/images/I/71qC9Q62G3L._SL1500_.jpg",
+      "sizeBytes": 103744
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/10/457858049/PD/NS/MZ/6796833/shelcal-3-1000x1000.jpg",
+      "sizeBytes": 92861
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/2b0600ef5261468b944bba73aa44f19f.jpg",
+      "sizeBytes": 61253
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/1/479536489/MM/HW/TT/61984086/shelcal500-500x500.jpeg",
+      "sizeBytes": 61796
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://www.buy-pharma.md/img/uploads/10454-Shelcal-Calcium-Vitamin-D3-Packaging.jpg",
+      "sizeBytes": 181870
+    }
+  ]
+}

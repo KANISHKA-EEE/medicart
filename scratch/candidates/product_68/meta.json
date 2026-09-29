@@ -1,0 +1,35 @@
+{
+  "id": 68,
+  "name": "Elastic Compression Bandage 4 Inch",
+  "manufacturer": "Hansaplast Crepe",
+  "category": "First Aid",
+  "dosageForm": "Bandage",
+  "packSize": "1 Roll",
+  "brandQuery": "Hansaplast Cotton Crepe Bandage 4 Inch roll 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/H98699/hansaplast-cotton-10-cm-x-4-m-crepe-bandage-1-nos-6.2-1644418401.jpg",
+      "sizeBytes": 155514
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/H98699/hansaplast-cotton-10-cm-x-4-m-crepe-bandage-1-nos-6.6-1644418163.jpg",
+      "sizeBytes": 140950
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.png",
+      "url": "https://assets.truemeds.in/Images/ProductImage/TM-BALM1-000059/hansaplast-15-cm-x-4-m-cotton-crepe-bandage-1_hansaplast-15-cm-x-4-m-cotton-crepe-bandage-1--TM-BALM1-000059_1.png",
+      "sizeBytes": 934960
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/H98699/hansaplast-cotton-10-cm-x-4-m-crepe-bandage-1-nos-6.8-1644418640.jpg",
+      "sizeBytes": 132988
+    }
+  ]
+}

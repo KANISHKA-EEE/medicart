@@ -1,0 +1,41 @@
+{
+  "id": 7,
+  "name": "Telmisartan 40mg Tablets",
+  "manufacturer": "Glenmark Pharma",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 15 Tablets",
+  "brandQuery": "Telma 40 Glenmark Telmisartan 40mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.webp",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/12/572107749/RA/NG/JK/251424505/telma-40-mg-telmisartan-tablets-ip-1000x1000.webp",
+      "sizeBytes": 62351
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I02514/telma-40mg-strip-of-30-tablets-2-1641530968.jpg",
+      "sizeBytes": 247999
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/8/KV/JN/UJ/141952698/telma-40-1000x1000.jpg",
+      "sizeBytes": 72581
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2024/7/433384866/JJ/IA/XJ/133697540/telmisartan-40-mg-tablet-500x500.jpg",
+      "sizeBytes": 31777
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2022/8/PX/HQ/SI/141952698/telma-h-40-mg-1000x1000.jpg",
+      "sizeBytes": 60255
+    }
+  ]
+}

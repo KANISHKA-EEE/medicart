@@ -77,7 +77,7 @@ export default function Navbar({
             </div>
           </Link>
 
-          {/* Direct Nav Menu (Home | Medicines | About | Login | Cart) */}
+          {/* Direct Nav Menu (Home | Medicines | About) */}
           <div className="primary-nav-links">
             <button className="nav-menu-link" onClick={scrollToHome}>
               <Home size={16} /> Home
@@ -87,16 +87,6 @@ export default function Navbar({
             </button>
             <button className="nav-menu-link" onClick={onOpenAbout}>
               <Info size={16} /> About
-            </button>
-            {isAuthenticated ? (
-              <span className="nav-menu-user">Hi, {user?.name}</span>
-            ) : (
-              <button className="nav-menu-link" onClick={() => navigate('/login')}>
-                <User size={16} /> Login
-              </button>
-            )}
-            <button className="nav-menu-link cart-menu-highlight" onClick={onOpenCart}>
-              <ShoppingCart size={16} /> Cart ({cartCount})
             </button>
           </div>
 
@@ -123,60 +113,39 @@ export default function Navbar({
             </div>
           </div>
 
-          {/* Desktop Right Actions */}
-          <div className="nav-actions">
+          {/* Desktop Right Actions: Hi, KANISHKA S → Cart → Logout */}
+          <div className="nav-right-actions">
             {isAuthenticated ? (
-              <div className="user-profile-btn">
-                <User size={20} />
-                <div className="action-text">
-                  <span className="sub-text">Hello,</span>
-                  <span className="main-text">{user?.name || 'User'}</span>
-                </div>
-
+              <div className="user-greeting-pill">
+                <User size={16} className="user-icon" />
+                <span className="user-greeting-text">Hi, {user?.name || 'User'}</span>
                 {user?.role === 'admin' && (
                   <Link to="/admin" className="admin-nav-btn" title="Admin Dashboard">
-                    <ShieldCheck size={16} />
+                    <ShieldCheck size={14} />
                     <span>Admin</span>
                   </Link>
                 )}
-
-                <button 
-                  className="btn-logout" 
-                  onClick={handleLogout}
-                  title="Sign Out"
-                >
-                  <LogOut size={14} />
-                  <span>Logout</span>
-                </button>
               </div>
             ) : (
-              <button className="nav-action-btn" onClick={() => navigate('/login')}>
-                <User size={20} />
-                <div className="action-text">
-                  <span className="sub-text">Hello, Sign In</span>
-                  <span className="main-text">Account</span>
-                </div>
+              <button className="nav-menu-link" onClick={() => navigate('/login')}>
+                <User size={16} /> Login
               </button>
             )}
 
-            <button className="nav-action-btn" onClick={() => navigate('/orders')}>
-              <Package size={20} />
-              <div className="action-text">
-                <span className="sub-text">Returns &</span>
-                <span className="main-text">Orders</span>
-              </div>
+            <button className="nav-menu-link cart-menu-highlight" onClick={onOpenCart}>
+              <ShoppingCart size={16} /> Cart ({cartCount})
             </button>
 
-            <button className="cart-btn" onClick={onOpenCart}>
-              <div className="cart-icon-box">
-                <ShoppingCart size={22} />
-                <span className="cart-badge">{cartCount}</span>
-              </div>
-              <div className="action-text">
-                <span className="sub-text">My</span>
-                <span className="main-text">Cart</span>
-              </div>
-            </button>
+            {isAuthenticated && (
+              <button 
+                className="btn-logout" 
+                onClick={handleLogout}
+                title="Sign Out"
+              >
+                <LogOut size={14} />
+                <span>Logout</span>
+              </button>
+            )}
           </div>
 
           {/* Mobile Menu Toggle */}

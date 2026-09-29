@@ -1,0 +1,41 @@
+{
+  "id": 13,
+  "name": "Vitamin D3 60,000 IU Nano Shots",
+  "manufacturer": "Cadila Healthcare",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Oral Liquid Shot",
+  "packSize": "Pack of 4 Shots (5ml each)",
+  "brandQuery": "Calcirol 60000 IU Cadila Vitamin D3 nano shot 5ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/Y06689/calcirol-nano-sugar-free-bottle-of-5ml-oral-solution-1-1739188983.jpg",
+      "sizeBytes": 107653
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.png",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/1/575065247/XW/GH/TJ/85928095/cholecalciferol-ip-60-000-iu-nano-shot-1000x1000.png",
+      "sizeBytes": 641142
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://images-eu.ssl-images-amazon.com/images/I/31ZwTqTCfrL._AC_UL165_SR165,165_.jpg",
+      "sizeBytes": 6972
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://globuslabs.in/wp-content/uploads/2025/12/caqpro-nano-shots.jpg",
+      "sizeBytes": 27669
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://assets.truemeds.in/Images/ProductImage/TM-ORSF1-000044/calcirol-nano-sugar-free-solution-5ml_calcirol-nano-sugar-free-solution-5ml--TM-ORSF1-000044_3.png?width=320",
+      "sizeBytes": 61237
+    }
+  ]
+}

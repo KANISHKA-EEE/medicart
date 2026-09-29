@@ -13,6 +13,16 @@ export const CartProvider = ({ children }) => {
     }
   });
 
+  const [prescriptionFile, setPrescriptionFileState] = useState(() => {
+    try {
+      const savedPrescription = localStorage.getItem('medicart_prescription');
+      return savedPrescription ? JSON.parse(savedPrescription) : null;
+    } catch (err) {
+      console.error('Failed to load prescription from localStorage:', err);
+      return null;
+    }
+  });
+
   // Save cart to localStorage whenever cartItems changes
   useEffect(() => {
     try {
@@ -21,6 +31,27 @@ export const CartProvider = ({ children }) => {
       console.error('Failed to save cart to localStorage:', err);
     }
   }, [cartItems]);
+
+  // Save prescription file to localStorage
+  useEffect(() => {
+    try {
+      if (prescriptionFile) {
+        localStorage.setItem('medicart_prescription', JSON.stringify(prescriptionFile));
+      } else {
+        localStorage.removeItem('medicart_prescription');
+      }
+    } catch (err) {
+      console.error('Failed to save prescription file to localStorage:', err);
+    }
+  }, [prescriptionFile]);
+
+  const setPrescriptionFile = (fileData) => {
+    setPrescriptionFileState(fileData);
+  };
+
+  const clearPrescriptionFile = () => {
+    setPrescriptionFileState(null);
+  };
 
   // Helper to normalize ID
   const getItemId = (item) => item._id || item.id;
@@ -70,12 +101,13 @@ export const CartProvider = ({ children }) => {
           imageBg: product.imageBg || '#e0f2fe',
           iconName: product.iconName || 'Pill',
           stock: product.stock,
+          prescriptionRequired: !!product.prescriptionRequired,
           quantity: 1
         }
       ];
     });
 
-    return { success: true, message: resultMsg };
+    return { success: true, message: resultMsg, prescriptionRequired: !!product.prescriptionRequired };
   };
 
   // Remove single item
@@ -113,10 +145,14 @@ export const CartProvider = ({ children }) => {
   // Clear entire cart
   const clearCart = () => {
     setCartItems([]);
+    setPrescriptionFileState(null);
   };
 
   // Calculate total number of items
   const cartCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
+
+  // Check if any cart item requires a prescription
+  const hasPrescriptionItem = cartItems.some((item) => !!item.prescriptionRequired);
 
   // Calculate cart subtotal
   const cartSubtotal = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
@@ -138,7 +174,11 @@ export const CartProvider = ({ children }) => {
         clearCart,
         cartCount,
         cartSubtotal,
-        totalSavings
+        totalSavings,
+        hasPrescriptionItem,
+        prescriptionFile,
+        setPrescriptionFile,
+        clearPrescriptionFile
       }}
     >
       {children}

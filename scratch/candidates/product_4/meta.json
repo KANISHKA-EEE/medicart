@@ -1,0 +1,35 @@
+{
+  "id": 4,
+  "name": "Pantoprazole 40mg Gastro-Resistant",
+  "manufacturer": "Alkem Laboratories",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 15 Tablets",
+  "brandQuery": "Pan 40 Alkem Pantoprazole 40mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I00306/pan-40mg-15s-tab-back-7-1597360739.jpg",
+      "sizeBytes": 129824
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.practostatic.com/practopedia-images/v3/res-750/pan-40mg-tablet-15-s_e0c8cd8e-1788-4c84-8491-99aa23ab675a.JPG",
+      "sizeBytes": 133332
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://onlinedawaiwala.com/wp-content/uploads/2025/03/pan-40mg-tablet-1024x1024.jpg",
+      "sizeBytes": 254811
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/PZ/JG/MF/SELLER-37457179/pan-40-mg-tablet-500x500.jpg",
+      "sizeBytes": 12598
+    }
+  ]
+}

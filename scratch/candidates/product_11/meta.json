@@ -1,0 +1,41 @@
+{
+  "id": 11,
+  "name": "Daily Multivitamin Tablets",
+  "manufacturer": "HealthVit Organics",
+  "category": "Vitamins & Supplements",
+  "dosageForm": "Tablet",
+  "packSize": "Bottle of 60 Tablets",
+  "brandQuery": "HealthVit Daily Multivitamin 60 tablets 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/K79290/healthvit-mulvit-multivitamin-tablets-bottle-of-60-6.3-1641788580.jpg",
+      "sizeBytes": 63674
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "http://healthvit.com/cdn/shop/files/61jUcj1hOML.jpg?v=1738399374",
+      "sizeBytes": 103258
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/4c70b35dff2b4f70bd81c3681b9992bc.jpg",
+      "sizeBytes": 130203
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://shop.medindia.com/content/images/thumbs/0002128_healthvit-mulvit-multivitamins-and-minerals-60-tablets.jpeg",
+      "sizeBytes": 67743
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/K79290/healthvit-mulvit-multivitamin-tablets-bottle-of-60-6.2-1641788583.jpg",
+      "sizeBytes": 42476
+    }
+  ]
+}

@@ -15,7 +15,8 @@ import {
   Eye,
   User,
   IndianRupee,
-  Filter
+  Filter,
+  FileText
 } from 'lucide-react';
 
 export default function AdminOrders() {
@@ -97,7 +98,7 @@ export default function AdminOrders() {
             </Link>
             <div className="admin-title-badge">
               <Package size={22} className="admin-shield-icon" />
-              <h1>Order Management</h1>
+              <h1>Order Management & Prescription Review</h1>
             </div>
           </div>
 
@@ -198,69 +199,79 @@ export default function AdminOrders() {
                       <th>Customer Details</th>
                       <th>Date & Time</th>
                       <th>Items</th>
+                      <th>Prescription</th>
                       <th>Total Amount</th>
                       <th>Status</th>
-                      <th>Payment</th>
                       <th className="text-right">Action</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {filteredOrders.map((order) => (
-                      <tr key={order._id}>
-                        <td>
-                          <span className="order-id-code" title={order._id}>
-                            #{order._id.substring(order._id.length - 8)}
-                          </span>
-                        </td>
-                        <td>
-                          <div className="table-med-details">
-                            <span className="table-med-name">
-                              {order.user?.name || order.shippingAddress?.fullName || 'Customer'}
+                    {filteredOrders.map((order) => {
+                      const rxStatus = order.prescriptionStatus || (order.prescriptionRequired ? 'Pending Review' : 'Not Required');
+
+                      return (
+                        <tr key={order._id}>
+                          <td>
+                            <span className="order-id-code" title={order._id}>
+                              #{order._id.substring(order._id.length - 8)}
                             </span>
-                            <span className="table-med-meta">
-                              {order.user?.email || order.shippingAddress?.email || 'N/A'}
+                          </td>
+                          <td>
+                            <div className="table-med-details">
+                              <span className="table-med-name">
+                                {order.user?.name || order.shippingAddress?.fullName || 'Customer'}
+                              </span>
+                              <span className="table-med-meta">
+                                {order.user?.email || order.shippingAddress?.email || 'N/A'}
+                              </span>
+                            </div>
+                          </td>
+                          <td>
+                            <span className="order-date-text">
+                              {new Date(order.createdAt).toLocaleDateString('en-IN', {
+                                day: 'numeric',
+                                month: 'short',
+                                year: 'numeric'
+                              })}
                             </span>
-                          </div>
-                        </td>
-                        <td>
-                          <span className="order-date-text">
-                            {new Date(order.createdAt).toLocaleDateString('en-IN', {
-                              day: 'numeric',
-                              month: 'short',
-                              year: 'numeric'
-                            })}
-                          </span>
-                        </td>
-                        <td>
-                          <span className="items-summary-badge">
-                            {order.items?.length || 0} {order.items?.length === 1 ? 'Item' : 'Items'}
-                          </span>
-                        </td>
-                        <td>
-                          <span className="table-price">₹{order.pricing?.total || 0}</span>
-                        </td>
-                        <td>
-                          <span className={`status-pill ${getStatusBadgeClass(order.status)}`}>
-                            {order.status}
-                          </span>
-                        </td>
-                        <td>
-                          <span className="payment-badge-pending">
-                            {order.paymentStatus || 'Pending'}
-                          </span>
-                        </td>
-                        <td className="text-right">
-                          <button
-                            className="action-btn view-btn"
-                            onClick={() => navigate(`/admin/orders/${order._id}`)}
-                            title="View Full Order Details"
-                          >
-                            <Eye size={16} />
-                            <span>View</span>
-                          </button>
-                        </td>
-                      </tr>
-                    ))}
+                          </td>
+                          <td>
+                            <span className="items-summary-badge">
+                              {order.items?.length || 0} {order.items?.length === 1 ? 'Item' : 'Items'}
+                            </span>
+                          </td>
+                          <td>
+                            {order.prescriptionRequired ? (
+                              <span className={`status-pill rx-pill-${rxStatus.toLowerCase().replace(/\s+/g, '-')}`}>
+                                {rxStatus === 'Pending Review' ? 'Pending Review' : rxStatus}
+                              </span>
+                            ) : (
+                              <span style={{ fontSize: '0.78rem', color: '#94a3b8' }}>
+                                Not Required
+                              </span>
+                            )}
+                          </td>
+                          <td>
+                            <span className="table-price">₹{order.pricing?.total || 0}</span>
+                          </td>
+                          <td>
+                            <span className={`status-pill ${getStatusBadgeClass(order.status)}`}>
+                              {order.status}
+                            </span>
+                          </td>
+                          <td className="text-right">
+                            <button
+                              className="action-btn view-btn"
+                              onClick={() => navigate(`/admin/orders/${order._id}`)}
+                              title="View & Review Order"
+                            >
+                              <Eye size={16} />
+                              <span>View & Review</span>
+                            </button>
+                          </td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               )}

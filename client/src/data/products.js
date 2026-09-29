@@ -10,7 +10,7 @@ export const productsData = [
     category: "Pain Relief",
     stock: "In Stock",
     dosageForm: "Tablet (Strip of 15)",
-    imageBg: "#e0f2fe",
+    imageBg: "#f1f5f9",
     iconName: "Pill"
   },
   {
@@ -24,7 +24,7 @@ export const productsData = [
     category: "Vitamins",
     stock: "In Stock",
     dosageForm: "Chewable (60 Tablets)",
-    imageBg: "#fef3c7",
+    imageBg: "#f1f5f9",
     iconName: "Sun"
   },
   {
@@ -38,7 +38,7 @@ export const productsData = [
     category: "Cold & Flu",
     stock: "In Stock",
     dosageForm: "Tablet (Strip of 10)",
-    imageBg: "#e0e7ff",
+    imageBg: "#f1f5f9",
     iconName: "ShieldAlert"
   },
   {
@@ -52,7 +52,7 @@ export const productsData = [
     category: "Wellness",
     stock: "In Stock",
     dosageForm: "Sachet (21.8g)",
-    imageBg: "#dcfce7",
+    imageBg: "#f1f5f9",
     iconName: "Zap"
   },
   {
@@ -66,7 +66,7 @@ export const productsData = [
     category: "Vitamins",
     stock: "In Stock",
     dosageForm: "Bottle (30 Tablets)",
-    imageBg: "#fae8ff",
+    imageBg: "#f1f5f9",
     iconName: "Activity"
   },
   {
@@ -80,7 +80,7 @@ export const productsData = [
     category: "First Aid",
     stock: "In Stock",
     dosageForm: "Liquid Bottle",
-    imageBg: "#fee2e2",
+    imageBg: "#f1f5f9",
     iconName: "Cross"
   },
   {
@@ -94,7 +94,7 @@ export const productsData = [
     category: "Personal Care",
     stock: "In Stock",
     dosageForm: "Fast 10s Reading Device",
-    imageBg: "#ecfeff",
+    imageBg: "#f1f5f9",
     iconName: "Thermometer"
   },
   {
@@ -108,7 +108,7 @@ export const productsData = [
     category: "Personal Care",
     stock: "In Stock",
     dosageForm: "Pump Bottle (70% Alcohol)",
-    imageBg: "#f0fdf4",
+    imageBg: "#f1f5f9",
     iconName: "Sparkles"
   }
 ];
@@ -120,15 +120,15 @@ export const categoriesData = [
     description: "Prescription & OTC medicines for daily health needs.",
     icon: "Stethoscope",
     badge: "Essential",
-    color: "#0284c7"
+    color: "#087EA4"
   },
   {
     id: "vitamins",
     name: "Vitamins & Supplements",
-    description: "Boost your daily nutrition, energy, and overall stamina.",
+    description: "Boost your daily nutrition, energy, and immunity.",
     icon: "Sparkles",
     badge: "Popular",
-    color: "#d97706"
+    color: "#087EA4"
   },
   {
     id: "pain-relief",
@@ -136,7 +136,7 @@ export const categoriesData = [
     description: "Fast relief from muscle ache, joint pain, and headaches.",
     icon: "Zap",
     badge: "Fast Relief",
-    color: "#dc2626"
+    color: "#087EA4"
   },
   {
     id: "cold-flu",
@@ -144,7 +144,7 @@ export const categoriesData = [
     description: "Relief for cough, congestion, fever, and sore throat.",
     icon: "Thermometer",
     badge: "Seasonal",
-    color: "#4f46e5"
+    color: "#087EA4"
   },
   {
     id: "diabetes",
@@ -152,15 +152,31 @@ export const categoriesData = [
     description: "Glucose monitors, test strips, and sugar-free care.",
     icon: "Activity",
     badge: "Care",
-    color: "#059669"
+    color: "#087EA4"
   },
   {
     id: "personal-care",
     name: "Personal Care",
-    description: "Hygiene, skin protection, and daily grooming essentials.",
+    description: "Hygiene, skin protection, and daily care essentials.",
     icon: "Heart",
     badge: "Daily",
-    color: "#db2777"
+    color: "#087EA4"
+  },
+  {
+    id: "first-aid",
+    name: "First Aid",
+    description: "Bandages, antiseptics, creams, and emergency kits.",
+    icon: "Cross",
+    badge: "Emergency",
+    color: "#087EA4"
+  },
+  {
+    id: "baby-care",
+    name: "Baby Care",
+    description: "Gentle baby wipes, diapers, nutrition, and skincare.",
+    icon: "Baby",
+    badge: "Gentle",
+    color: "#087EA4"
   }
 ];
 
@@ -182,7 +198,7 @@ export const wellnessData = [
     title: "Immunity Boosters",
     tagline: "Strengthen your body's natural defense mechanism.",
     icon: "ShieldCheck",
-    color: "#0284c7",
+    color: "#087EA4",
     items: ["Chyawanprash", "Herbal Tea", "Vitamin C & Zinc"]
   },
   {
@@ -190,7 +206,7 @@ export const wellnessData = [
     title: "Clinical Nutrition",
     tagline: "Balanced protein powders & dietary supplements.",
     icon: "Apple",
-    color: "#059669",
+    color: "#14B8A6",
     items: ["Whey Protein", "Diabetic Drinks", "Meal Replacements"]
   },
   {
@@ -198,7 +214,7 @@ export const wellnessData = [
     title: "Fitness & Recovery",
     tagline: "Support active lifestyle and muscle recovery.",
     icon: "Dumbbell",
-    color: "#7c3aed",
+    color: "#087EA4",
     items: ["Creatine", "Electrolyte Hydration", "BCAA Drinks"]
   },
   {
@@ -206,7 +222,7 @@ export const wellnessData = [
     title: "Dermatology & Skin",
     tagline: "Gentle skincare, sunscreens & medicated lotions.",
     icon: "Droplets",
-    color: "#db2777",
+    color: "#14B8A6",
     items: ["Moisturizers", "Sunscreen SPF 50+", "Acne Care"]
   }
 ];

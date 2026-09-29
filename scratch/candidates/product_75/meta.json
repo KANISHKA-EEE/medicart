@@ -1,0 +1,41 @@
+{
+  "id": 75,
+  "name": "Zinc Oxide Diaper Rash Cream 50g",
+  "manufacturer": "Desitin Care",
+  "category": "Baby Care",
+  "dosageForm": "Cream",
+  "packSize": "Tube of 50g",
+  "brandQuery": "Desitin Diaper Rash Cream 50g tube 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://contenthandler-raleys.fieldera.com/prod/87850/1/0/0/10952037-Planogram-Left.jpg",
+      "sizeBytes": 275584
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.png",
+      "url": "https://images.ctfassets.net/k8ix1sm1b48c/67QQt1Lo10P8vnuL7xhCen/9094e143fbd43522de74524977316bb4/dailydef_mainpdpimage.png",
+      "sizeBytes": 214936
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.webp",
+      "url": "https://images.ctchealth.ca/Desitin_Daily_Defense_Diaper_Rash_Cream_with_13__Zinc_Oxide__Hypoallergenic__Gentle_for_Babies_62600651563_1.webp",
+      "sizeBytes": 266302
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "http://www.medoget.com/cdn/shop/files/Desitin_Daily_Defense_Baby_Diaper_Rash_Cream.png?v=1737628494",
+      "sizeBytes": 357190
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://images.ctfassets.net/k8ix1sm1b48c/7ktkYPZy7tWlWsfK971KZV/a6ed6222fa781303ce12e10ab00d38c3/desitinproductbanner.png",
+      "sizeBytes": 124877
+    }
+  ]
+}

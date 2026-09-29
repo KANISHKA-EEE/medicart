@@ -1,0 +1,41 @@
+{
+  "id": 49,
+  "name": "Sugar-Free Sweetener Pellets",
+  "manufacturer": "Sugar Free Natura",
+  "category": "Diabetes Care",
+  "dosageForm": "Pellets",
+  "packSize": "Dispenser of 100 Pellets",
+  "brandQuery": "Sugar Free Natura Pellets 100s dispenser 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/P61032/sugar-free-natura-sweetener-pellets-bottle-of-100-6.4-1641789031.jpg",
+      "sizeBytes": 82573
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/P61032/sugar-free-natura-sweetener-pellets-bottle-of-100-7-1688468053.jpg",
+      "sizeBytes": 79584
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/P61032/sugar-free-natura-sweetener-pellets-bottle-of-100-6.1-1641789025.jpg",
+      "sizeBytes": 92104
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn.pixelbin.io/v2/plain-cake-860195/netmed/wrkr/products/pictures/item/free/original/Bqswb3YvSL-sugar_free_natura_pellet_100_s_0.jpg",
+      "sizeBytes": 33546
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://images.snoonu.com/images/b629caab-c04d-452f-bb41-0ccf00fb68f3_8901120143115.jpg",
+      "sizeBytes": 15240
+    }
+  ]
+}

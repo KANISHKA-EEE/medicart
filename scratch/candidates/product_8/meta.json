@@ -1,0 +1,41 @@
+{
+  "id": 8,
+  "name": "Montelukast 10mg Tablets",
+  "manufacturer": "Mankind Pharma",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 10 Tablets",
+  "brandQuery": "Montair 10 Mankind Montelukast 10mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2026/1/575615408/KS/IC/TM/258378215/montair-10-mg-tablet-1000x1000.jpg",
+      "sizeBytes": 197044
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.arrowmeds.com/wp-content/uploads/2019/04/Montair-10mg.jpg",
+      "sizeBytes": 102808
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I00154/montair-10mg-strip-of-15-tablets-1-1641531297.jpg",
+      "sizeBytes": 61149
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/12/568908330/WH/UY/CK/3112966/montair-10mg-150-tab-montelukast-sodium-1000x1000.jpg",
+      "sizeBytes": 46099
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://5.imimg.com/data5/SELLER/Default/2025/12/568908329/WE/PW/WL/3112966/montair-10mg-150-tab-montelukast-sodium-1000x1000.jpg",
+      "sizeBytes": 76969
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 57,
+  "name": "Sunscreen Lotion SPF 50+ PA+++",
+  "manufacturer": "Neutrogena Derm",
+  "category": "Personal Care",
+  "dosageForm": "Sunscreen Lotion",
+  "packSize": "Tube of 100ml",
+  "brandQuery": "Neutrogena Ultra Sheer Dry-Touch Sunblock SPF 50+ 100ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://images.ctfassets.net/hpl1ps3eket1/3gvOmpDS45fg0SxzNSd7Ta/6b313d46e5c98599788ffa2cc7ff3222/NTG_086800687900_27315134_UltraSheer_Dry-Touch_Sunscreen_SPF50_00000.jpg",
+      "sizeBytes": 545684
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://m.media-amazon.com/images/I/61dSZR8IqbL.jpg",
+      "sizeBytes": 115238
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://down-id.img.susercontent.com/file/id-11134207-7qukw-lg698697n4rg0f",
+      "sizeBytes": 137327
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://ruperhat.com/wp-content/uploads/2024/08/Neutrogena-Ultra-Sheer-Dry-.jpg",
+      "sizeBytes": 51156
+    }
+  ]
+}

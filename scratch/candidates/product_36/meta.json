@@ -1,0 +1,41 @@
+{
+  "id": 36,
+  "name": "Chest Vapor Rub 50g Jar",
+  "manufacturer": "Vicks Health",
+  "category": "Cold & Flu",
+  "dosageForm": "Vapor Rub",
+  "packSize": "Jar of 50g",
+  "brandQuery": "Vicks VapoRub 50g Jar 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://zbga.shopsuki.ph/cdn/shop/files/VicksVaporubJar50g_800x.jpg?v=1721018247",
+      "sizeBytes": 113696
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://chemcarepharmacy.com/cdn/shop/files/proc_9300618580026-0_bfdd846b-d55d-409f-9332-0defa87b9d33.jpg?v=1713169859",
+      "sizeBytes": 191101
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://images.ctfassets.net/sabbecbbwaz3/6kEpUo4ITQwJRnpYwPujOq/a21b0d62521e7f3a3a5d478d8f240959/VVR_50g_Jar_Closed_header.png?w=1600",
+      "sizeBytes": 132763
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://medicalmartpk.com/cdn/shop/files/product-1401513401631098701.png?v=1695377300",
+      "sizeBytes": 603903
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "http://zenithpharmacy.com.au/cdn/shop/products/Vicks-Vaporub-Ointment-Jar-50g-1_1.jpg?v=1703035658",
+      "sizeBytes": 116400
+    }
+  ]
+}

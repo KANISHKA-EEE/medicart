@@ -1,0 +1,35 @@
+{
+  "id": 52,
+  "name": "Nourishing Body Wash 250ml",
+  "manufacturer": "Dove Body Care",
+  "category": "Personal Care",
+  "dosageForm": "Body Wash",
+  "packSize": "Bottle of 250ml",
+  "brandQuery": "Dove Deeply Nourishing Body Wash 250ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://www.dove-india.com/cdn/shop/products/17308_S1_8901030873218_64d4cc4e-d672-4571-99fa-f175d3174b62_3000x.jpg?v=1686999855",
+      "sizeBytes": 39922
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://meyeghor.com/media/2440/woo-14880-deeply-noyurish.jpg",
+      "sizeBytes": 16053
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://imgwlns.gumlet.io/images/products/307079-1.jpg",
+      "sizeBytes": 60999
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "http://pharmazone.com/cdn/shop/files/51810-_Dove_Deeply_Nourishing_Body_Wash_250ml_Front_Side.webp?v=1755738735",
+      "sizeBytes": 34206
+    }
+  ]
+}

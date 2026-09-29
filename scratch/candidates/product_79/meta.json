@@ -1,0 +1,41 @@
+{
+  "id": 79,
+  "name": "Gentle Baby Skincare Soap Bar (100g)",
+  "manufacturer": "Chicco Baby",
+  "category": "Baby Care",
+  "dosageForm": "Soap Bar",
+  "packSize": "Bar of 100g",
+  "brandQuery": "Chicco Baby Moments Soap Bar 100g 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://wp.jomla.ae/wp-content/uploads/2022/09/gt-ch10398-chicco-baby-moments-bar-soap-100g-1634125530.jpg",
+      "sizeBytes": 129691
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://down-id.img.susercontent.com/file/id-11134207-7r98t-lt5hk4wmems9e1",
+      "sizeBytes": 299397
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://down-id.img.susercontent.com/file/id-11134207-7rbke-m9ecdylfujgi81",
+      "sizeBytes": 186404
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://media-v4.edamama.ph/products/Images Template (46)_1726458564102.jpg",
+      "sizeBytes": 126476
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://www.apotekasrbotrade.rs/imgProducts/5944/chicco-baby-moments-mlecni-sapun-100g-srbotrade (1).jpg",
+      "sizeBytes": 173149
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 10,
+  "name": "Amlodipine 5mg Tablets",
+  "manufacturer": "Torrent Pharma",
+  "category": "Medicines",
+  "dosageForm": "Tablet",
+  "packSize": "Strip of 15 Tablets",
+  "brandQuery": "Stamlo 5 Torrent Amlodipine 5mg tablet 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I10997/stamlo-5mg-strip-of-30-tablets-front-2-1597366049.jpg",
+      "sizeBytes": 165673
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products/I10997/stamlo-5mg-strip-of-30-tablets-2-1641536487.jpg",
+      "sizeBytes": 227227
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://onlinedawaiwala.com/wp-content/uploads/2025/02/stamlo-5mg-tablet.jpg",
+      "sizeBytes": 41916
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://nhathuocanphuoc.com.vn/upload/product/thuoc-stamlo-5mg-amlodipine-hop-20-vien-5637.jpg",
+      "sizeBytes": 95270
+    }
+  ]
+}

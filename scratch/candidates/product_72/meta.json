@@ -1,0 +1,35 @@
+{
+  "id": 72,
+  "name": "Nourishing Baby Lotion 200ml",
+  "manufacturer": "Himalaya BabyCare",
+  "category": "Baby Care",
+  "dosageForm": "Lotion",
+  "packSize": "Bottle of 200ml",
+  "brandQuery": "Himalaya Baby Lotion 200ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/264328/himalaya-baby-cream-tube-of-200-ml-3-1669655422.jpg",
+      "sizeBytes": 53738
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://himalayawellness.in/cdn/shop/files/BABY-LOTION-200ml-LABEL-_FOP-copy.jpg?v=1728024735",
+      "sizeBytes": 143923
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://cdn01.pharmeasy.in/dam/products_otc/090947/himalaya-baby-lotion-bottle-of-200-ml-2-1669655171.jpg",
+      "sizeBytes": 31472
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.png",
+      "url": "https://medilinespharma.com/assets/images/1723269961HIM BABY LOTION 200ML.png",
+      "sizeBytes": 59163
+    }
+  ]
+}

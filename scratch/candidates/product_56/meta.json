@@ -1,0 +1,29 @@
+{
+  "id": 56,
+  "name": "Smooth Repair Hair Conditioner",
+  "manufacturer": "Tresemme Hair",
+  "category": "Personal Care",
+  "dosageForm": "Conditioner",
+  "packSize": "Bottle of 200ml",
+  "brandQuery": "Tresemme Keratin Smooth Hair Conditioner 200ml 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "http://www.tresemme.in/cdn/shop/files/11876_S9-8909106001466_31696d20-116f-4ee8-a21f-537fa865b18e.jpg?v=1718097374",
+      "sizeBytes": 42644
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://rukminim2.flixcart.com/image/960/1280/xif0q/conditioner/p/s/b/-original-imahyg7qy9sn2u4m.jpeg?q=60",
+      "sizeBytes": 31554
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "https://asset-2.tribunnews.com/shopping/foto/bank/images/TRESEMME-Hair-Conditioner-Keratin-Smooth-4.jpg",
+      "sizeBytes": 51999
+    }
+  ]
+}

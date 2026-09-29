@@ -1,0 +1,41 @@
+{
+  "id": 43,
+  "name": "Sterile Blood Lancets (100s)",
+  "manufacturer": "Dr. Morepen Care",
+  "category": "Diabetes Care",
+  "dosageForm": "Sterile Lancets",
+  "packSize": "Box of 100 Lancets",
+  "brandQuery": "Dr Morepen Lancets 100s box 1mg pharmeasy",
+  "downloadedCandidates": [
+    {
+      "index": 1,
+      "filename": "brand_candidate_1.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/602f592c349c4a60b2e1f39e987b75f1.jpg",
+      "sizeBytes": 165341
+    },
+    {
+      "index": 2,
+      "filename": "brand_candidate_2.jpg",
+      "url": "https://m.media-amazon.com/images/I/81cq764lSBL._SL1500_.jpg",
+      "sizeBytes": 121603
+    },
+    {
+      "index": 3,
+      "filename": "brand_candidate_3.jpg",
+      "url": "https://m.media-amazon.com/images/I/71wKrJkHwDL.jpg",
+      "sizeBytes": 174679
+    },
+    {
+      "index": 4,
+      "filename": "brand_candidate_4.jpg",
+      "url": "https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/5b3c7168239746f5bb17f4f54be33e43.jpg",
+      "sizeBytes": 181673
+    },
+    {
+      "index": 5,
+      "filename": "brand_candidate_5.jpg",
+      "url": "http://rukmini1.flixcart.com/image/300/300/ku1k4280/glucometer-strip/z/g/f/100-poct-lancet-and-bg-03-dr-morepen-original-imag798xjpyaqguc.jpeg",
+      "sizeBytes": 23720
+    }
+  ]
+}

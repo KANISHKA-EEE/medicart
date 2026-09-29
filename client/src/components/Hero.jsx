@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Truck, Clock, Award, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, ArrowRight, CheckCircle2, Truck, Award, Clock } from 'lucide-react';
 
 export default function Hero({ onShopClick, onWellnessClick }) {
   return (
@@ -8,17 +8,17 @@ export default function Hero({ onShopClick, onWellnessClick }) {
         {/* Left Hero Content */}
         <div className="hero-content">
           <div className="hero-badge">
-            <Sparkles size={16} />
-            <span>Trusted Pharmacy Partner</span>
+            <ShieldCheck size={16} />
+            <span>Licensed & Verified Online Pharmacy</span>
           </div>
 
           <h1 className="hero-title">
-            Your Health, <br />
-            <span className="hero-title-highlight">Our Priority</span>
+            Your Trusted <br />
+            <span className="hero-title-highlight">Online Pharmacy</span>
           </h1>
 
           <p className="hero-subheading">
-            Quality medicines and healthcare products delivered straight to your doorstep with guaranteed safety & speed.
+            Order 100% genuine prescription medicines, health products, and wellness essentials delivered safely and quickly to your doorstep.
           </p>
 
           <div className="hero-actions">
@@ -35,41 +35,48 @@ export default function Hero({ onShopClick, onWellnessClick }) {
           <div className="hero-perks">
             <div className="perk-item">
               <CheckCircle2 size={16} className="perk-icon" />
-              <span>100% Genuine Products</span>
+              <span>100% Genuine Medicines</span>
             </div>
             <div className="perk-item">
               <CheckCircle2 size={16} className="perk-icon" />
-              <span>Licensed Pharmacists</span>
+              <span>Certified Pharmacists</span>
             </div>
             <div className="perk-item">
               <CheckCircle2 size={16} className="perk-icon" />
-              <span>Superfast Delivery</span>
+              <span>Fast Doorstep Delivery</span>
             </div>
           </div>
         </div>
 
         {/* Right Hero Graphic Card */}
         <div className="hero-graphic">
-          <div className="hero-card-glow"></div>
           <div className="hero-card-main">
             <div className="hero-card-header">
-              <div className="rx-badge">Rx Verified</div>
-              <span className="live-pulse"></span>
+              <div className="pharmacy-tag">
+                <ShieldCheck size={18} />
+                <span>Kanishka Pharmacy Express</span>
+              </div>
             </div>
+            
             <div className="hero-card-body">
-              <div className="medicine-preview-icon">💊</div>
-              <h3>Express Health Delivery</h3>
-              <p>Over 50,000+ satisfied patients trust Kanishka Pharmacy for monthly medicine supply.</p>
+              <div className="hero-stat-box">
+                <span className="stat-number">50,000+</span>
+                <span className="stat-label">Patients Served Daily</span>
+              </div>
+              <p className="hero-card-desc">
+                Your trusted source for authentic medicines, health supplements, and healthcare supplies.
+              </p>
             </div>
+
             <div className="hero-card-features">
               <div className="feature-pill">
-                <Truck size={14} /> 2-Hour Express
+                <Truck size={15} /> Express Delivery
               </div>
               <div className="feature-pill">
-                <ShieldCheck size={14} /> Certified Quality
+                <Award size={15} /> Verified Quality
               </div>
               <div className="feature-pill">
-                <Clock size={14} /> 24/7 Support
+                <Clock size={15} /> 24/7 Support
               </div>
             </div>
           </div>
